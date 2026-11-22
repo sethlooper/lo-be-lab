@@ -63,10 +63,10 @@
 
   /* ========== COLOR ========== */
 
-  --color-paper: #FAF8F1;
+  --color-paper: #FFFFFF;
   --color-ink:   #1A1A1A;
-  --color-muted: #6B6862;
-  --color-rule:  #D7D2C4;
+  --color-muted: #6B6B6B;
+  --color-rule:  #D9D9D9;
   --color-mark:  #F2E9C8;
 
   --color-link:       var(--color-ink);
