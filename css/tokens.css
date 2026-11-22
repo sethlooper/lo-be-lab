@@ -9,26 +9,26 @@
 :root {
   /* ========== TYPOGRAPHY ========== */
 
-  /* Sans-serif primary. Inter for that MIT Media Lab / Stripe modernity.
+  /* Primary face: Crimson Pro (Google Fonts), an old-style serif in the Minion tradition.
      The legacy alias --font-serif is kept so existing inline styles still resolve. */
-  --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-sans:  'Crimson Pro', Georgia, serif;
   --font-serif: var(--font-sans);
   --font-body:  var(--font-sans);
 
   /* Compressed sans-serif scale. Inter has tall x-heights, so the
      numeric sizes are smaller than the serif scale we started with -
      visually they're similar. MIT Media Lab / Stripe Press territory. */
-  --text-2xs:  10px;   /* legacy alias */
-  --text-xs:   11px;
-  --text-sm:   12px;   /* metadata, dates, italic asides */
-  --text-base: 13px;   /* body text - the default */
-  --text-md:   14px;   /* slightly emphasised paragraph */
-  --text-lg:   15px;   /* rare */
-  --text-xl:   16px;   /* H2 and ALL page titles (H1) */
-  --text-2xl:  16px;   /* alias - same as xl, kept for back-compat */
-  --text-3xl:  16px;   /* alias */
-  --text-display: 16px; /* alias */
-  --text-hero: 16px;   /* alias */
+  --text-2xs:  12px;   /* legacy alias */
+  --text-xs:   13px;
+  --text-sm:   14px;   /* metadata, dates, italic asides */
+  --text-base: 15.5px;   /* body text - the default */
+  --text-md:   16.5px;   /* slightly emphasised paragraph */
+  --text-lg:   17.5px;   /* rare */
+  --text-xl:   19px;   /* H2 and ALL page titles (H1) */
+  --text-2xl:  19px;   /* alias - same as xl, kept for back-compat */
+  --text-3xl:  19px;   /* alias */
+  --text-display: 19px; /* alias */
+  --text-hero: 19px;   /* alias */
 
   /* Legacy font alias: mono inline styles now resolve to the body sans.
      Note: --font-sans is defined at the top of this block - do NOT redefine
@@ -118,11 +118,11 @@
 @media (max-width: 700px) {
   :root {
     --page-padding: 22px;
-    --text-base: 13px;
-    --text-md: 14px;
-    --text-lg: 15px;
-    --text-xl: 16px;
-    --text-2xl: 16px;
-    --text-display: 16px;
+    --text-base: 15.5px;
+    --text-md: 16.5px;
+    --text-lg: 17.5px;
+    --text-xl: 19px;
+    --text-2xl: 19px;
+    --text-display: 19px;
   }
 }
