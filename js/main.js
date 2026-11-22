@@ -199,7 +199,7 @@ function runHeroParticles(canvas, opts) {
   // alpha. Used during the PHRASE and DISSOLVE phases.
   function drawPhrase(alpha) {
     if (!phraseLayout || alpha <= 0) return;
-    ctx.font = `800 ${phraseLayout.fontSize}px Inter, system-ui, sans-serif`;
+    ctx.font = `700 ${phraseLayout.fontSize}px 'Crimson Pro', Georgia, serif`;
     ctx.fillStyle = `rgba(20, 20, 20, ${alpha.toFixed(3)})`;
     ctx.textBaseline = 'top';
     ctx.textAlign = 'left';
@@ -216,7 +216,7 @@ function runHeroParticles(canvas, opts) {
     off.width = W;
     off.height = H;
     const octx = off.getContext('2d');
-    octx.font = `800 ${phraseLayout.fontSize}px Inter, system-ui, sans-serif`;
+    octx.font = `700 ${phraseLayout.fontSize}px 'Crimson Pro', Georgia, serif`;
     octx.fillStyle = '#000';
     octx.textBaseline = 'top';
     octx.textAlign = 'left';
@@ -278,7 +278,7 @@ function runHeroParticles(canvas, opts) {
 
       if (!captured) { centerFontSize = fontSize; captured = true; }
 
-      octx.font = `${fontWeight} ${fontSize}px Inter, system-ui, sans-serif`;
+      octx.font = `${fontWeight} ${fontSize}px 'Crimson Pro', Georgia, serif`;
       octx.fillText(
         text,
         rect.left + rect.width / 2,

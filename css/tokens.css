@@ -15,9 +15,7 @@
   --font-serif: var(--font-sans);
   --font-body:  var(--font-sans);
 
-  /* Compressed sans-serif scale. Inter has tall x-heights, so the
-     numeric sizes are smaller than the serif scale we started with -
-     visually they're similar. MIT Media Lab / Stripe Press territory. */
+  /* Compressed type scale for Crimson Pro. */
   --text-2xs:  12px;   /* legacy alias */
   --text-xs:   13px;
   --text-sm:   14px;   /* metadata, dates, italic asides */
