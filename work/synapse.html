@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can actually explore.">
+  <link rel="canonical" href="https://sethlooper.github.io/lo-be-lab/work/synapse.html">
+  <meta property="og:title" content="Synapse · Lo/Be Lab">
+  <meta property="og:description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can actually explore.">
+  <meta property="og:url" content="https://sethlooper.github.io/lo-be-lab/work/synapse.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Lo/Be Lab">
+  <meta property="og:image" content="https://sethlooper.github.io/lo-be-lab/images/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Synapse · Lo/Be Lab">
+  <meta name="twitter:description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can actually explore.">
+  <meta name="twitter:image" content="https://sethlooper.github.io/lo-be-lab/images/og-image.png">
+  <link rel="icon" href="../images/favicon.svg?v=46" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../images/favicon.svg?v=46">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css?v=46">
+  <link rel="stylesheet" href="../css/base.css?v=46">
+  <link rel="stylesheet" href="../css/components.css?v=46">
+  <title>Synapse · Lo/Be Lab</title>
+</head>
+<body>
+
+  <div class="page-frame">
+    <nav class="site-nav">
+      <div class="nav-left">
+        <a href="../index.html" aria-label="Lo/Be Lab home" class="no-rule">          <img src="../images/logo.svg" alt="" class="nav-logo">          <span class="nav-wordmark">Lo/Be Lab</span>
+        </a>
+      </div>
+      <div class="nav-right">
+        <a href="../work/index.html" class="no-rule active"><span class="nav-num">01</span>work</a>
+        <a href="../research/index.html" class="no-rule"><span class="nav-num">02</span>research</a>
+        <a href="../methods/index.html" class="no-rule"><span class="nav-num">03</span>methods</a>
+        <a href="../notes/index.html" class="no-rule"><span class="nav-num">04</span>notes</a>
+        <a href="../publications/index.html" class="no-rule"><span class="nav-num">05</span>publications</a>
+        <a href="../about/index.html" class="no-rule"><span class="nav-num">06</span>about</a>
+      </div>
+    </nav>
+  </div>
+
+  <main class="page-content">
+
+    <!-- CASE STUDY HEADER -->
+    <section class="case-header fade-up">
+      <div class="case-meta">Report 02 / Exploration instrument<span class="status-badge status-badge--active">Active</span></div>
+      <h1 class="case-title">Synapse</h1>
+      <div class="case-subtitle">Or, what changes when you trade the ranked list for a spatial map.</div>
+      <div class="case-details">
+        <span>Exploration Tool</span>
+        <span>460 Occupations, 13 Questions</span>
+        <span>sethlooper.com/synapse</span>
+      </div>
+    </section>
+
+    <!-- FRONT-MATTER METADATA -->
+    <section class="case-frontmatter fade-up">
+      <dl>
+        <dt>Author</dt>
+        <dd>Seth Looper</dd>
+        <dt>My role</dt>
+        <dd>Founder, lead designer, and sole developer</dd>
+        <dt>Past collaborators</dt>
+        <dd>Lin <strong>Liu</strong>, Xiaoxi <strong>Tan</strong> (2025)</dd>
+        <dt>Setting</dt>
+        <dd>Independent tool by the author; used in the Dartmouth Career Design Lab, 2024–2026; no institutional endorsement implied</dd>
+        <dt>Data sources</dt>
+        <dd>U.S. Bureau of Labor Statistics (BLS); O*NET</dd>
+        <dt>Corpus</dt>
+        <dd>460 occupations, 13 questions</dd>
+      </dl>
+      <dl>
+        <dt>Live at</dt>
+        <dd><a href="https://www.sethlooper.com/synapse/" target="_blank" rel="noopener noreferrer">sethlooper.com/synapse</a></dd>
+        <dt>Period</dt>
+        <dd>2024–present</dd>
+        <dt>Status</dt>
+        <dd><span class="status-badge status-badge--active">Active</span></dd>
+        <dt>Addresses</dt>
+        <dd><a href="../research/index.html#rq-2">RQ 2</a></dd>
+        <dt>Methods used</dt>
+        <dd><a href="../methods/index.html#spatial">Spatial mapping</a>, <a href="../methods/index.html#binary-elicitation">Binary elicitation</a>, tag-overlap recommender with diversity rules</dd>
+      </dl>
+    </section>
+
+    <!-- CLAIM AND CONFIDENCE -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">Claim and confidence</div>
+        <p>What this report argues, how far the evidence currently goes, and what would settle it. The lab states this up front so a reader can weigh the work honestly.</p>
+      </div>
+      <div class="case-findings" style="margin-top: var(--space-8);">
+        <div class="content-row">
+          <div class="row-label">The claim</div>
+          <div class="row-content">Replacing a ranked list with a spatial map shifts people from asking "what is the top answer" to exploring the shape of the space.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">What we have seen</div>
+          <div class="row-content">Two design generations so far: a ranked-list version replaced by a spatial-map version. The redesign is grounded in the productive-wandering pattern carried over from DartWorld. So far this is design rationale, not a measured effect.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">Confidence</div>
+          <div class="row-content">Provisional. Whether the map format actually increases exploration over the list format is one of the open empirical questions stated in the working paper, section 5.3.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">What would test it</div>
+          <div class="row-content">A comparison of exploration breadth between the list and map formats, and measurement of where users drop off in the 13-question intake.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">The Problem</div>
+
+        <p>Career assessments give you a ranked list. You answer questions, the system spits out occupations sorted by fit score, and you look at the top five. Two problems with that. First, it treats every career as separate. A student interested in urban planning might also connect with public health or environmental policy, but a list doesn't show you those connections. Second, nobody looks past the first few results. The format itself kills exploration.</p>
+      </div>
+    </section>
+
+    <!-- IMAGE -->
+    <div class="image-grid image-grid--hero">
+      <img src="../images/gallery/synapse-landing.jpg" alt="Synapse, Career Exploration Generator landing page" style="width:100%; height:auto; display:block; border-radius: 8px;">
+    </div>
+
+    <!-- WHAT WE BUILT -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">What We Built</div>
+
+        <p>Synapse asks 13 either/or questions about how you think, what energizes you, and what kind of impact you want. Instead of returning a ranked list, it maps your answers against 460 real occupations (from BLS and O*NET data) on a visual map. Careers that share characteristics sit near each other. You can wander through clusters of related jobs and find connections you never would have found by searching or scrolling.</p>
+      </div>
+
+      <div class="three-col" style="margin-top: var(--space-10);">
+        <div>
+          <div class="col-label">13 either/or questions</div>
+          <div class="col-text" style="font-size: var(--text-base); line-height: var(--lh-loose);">Quick choices about how you think, what drives you, and how you like to work. Thirteen questions is enough to produce a meaningful profile without turning into a 45-minute assessment. Takes under five minutes.</div>
+        </div>
+        <div>
+          <div class="col-label">spatial map</div>
+          <div class="col-text" style="font-size: var(--text-base); line-height: var(--lh-loose);">Occupations arranged on a map where nearby careers share similar characteristics. You explore by moving through clusters, not by scrolling a list.</div>
+        </div>
+        <div>
+          <div class="col-label">connections between careers</div>
+          <div class="col-text" style="font-size: var(--text-base); line-height: var(--lh-loose);">The map shows how careers relate to each other. Which roles cluster together, what's nearby, what you might not have considered. The design intent is that students find adjacent paths they wouldn't have found on their own.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE RESEARCH BASIS -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">The Research Basis</div>
+
+        <p>Synapse is built on a small number of established frames. Each shaped a specific design decision.</p>
+
+        <p>The 13 questions map to <strong>Holland's RIASEC dimensions</strong> (Holland, 1959; Holland, 1997), the six interest types that organize O*NET's Interest Profiler and the bulk of vocational-assessment infrastructure in U.S. counselor education. The forced-choice format (either/or, not Likert) follows the same tradition's emphasis on producing clear signal at low cost rather than nuanced self-description.</p>
+
+        <p>The 460 careers are drawn from the <strong>BLS Standard Occupational Classification (SOC)</strong> and <strong>O*NET 26.0</strong>, federal data, not editorial selection. This matters: the corpus isn't shaped by what the lab finds interesting; it's the same taxonomy a school counselor or labor economist would work from.</p>
+
+        <p>Two non-default moves come from outside the assessment tradition. First, the results page replaces the ranked list with a spatial map. The wayfinding framing comes from <strong>Burnett &amp; Evans's Designing Your Life</strong> (2016): careers as a landscape to walk through rather than a leaderboard to optimize. (The lab's <a href="../notes/maps-over-lists.html">Maps over lists</a> field note has more on why this pattern keeps showing up across our projects.) Second, the prompts are mood- and values-laden rather than skills- or experience-based. That choice draws on <strong>Mark Savickas's Career Construction Theory</strong> (Savickas, 2005), which treats career-related decisions as identity construction not slot-filling, and on the <strong>Knowdell Career Values</strong> card-sort tradition that recurs across Lo/Be Lab's other tools (see <a href="narrative-by-design.html">Narrative by Design</a>).</p>
+
+        <p>The full set of cited works is in the <a href="../publications/index.html#paper-synapse">working paper</a>.</p>
+      </div>
+    </section>
+
+    <!-- OPEN RESEARCH LINES -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">Open Research Lines</div>
+
+        <p>Synapse is a working product looking for a defensible evidence base. Seven research lines are planned; none has been conducted. Each is framed as: what we want to learn, and what would change on the site if we learn it.</p>
+      </div>
+
+      <div class="case-findings" style="margin-top: var(--space-8);">
+        <div class="content-row">
+          <div class="row-label">01 · Construct validity</div>
+          <div class="row-content">Exploratory factor analysis on student responses to confirm the 13 prompts map to RIASEC as claimed. Convergent validity check against O*NET's own Interest Profiler. Planned; would require an IRB-reviewed protocol.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">02 · Social Cognitive Career Theory integration</div>
+          <div class="row-content">Lent, Brown &amp; Hackett (1994). Adding prompts for self-efficacy, perceived barriers, and outcome expectations. Reweights the scoring; surfaces a "navigating barriers" section per career.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">03 · Workforce demographic annotation</div>
+          <div class="row-content">BLS Current Population Survey, Table 11, by SOC code. Each career card gains a workforce-composition field (sex, race, age percentages).</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">04 · AI exposure validation</div>
+          <div class="row-content">Per-career citations mapped to published exposure frameworks (Frey &amp; Osborne; McKinsey; OpenAI/Penn; Brookings). Methodology note to follow.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">05 · Metro salary adjuster</div>
+          <div class="row-content">BEA Regional Price Parities. Salary displays adjust for the student's metro instead of showing national averages that mislead non-coastal and international students.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">06 · Odyssey Plans as default output</div>
+          <div class="row-content">Burnett &amp; Evans (2016). Reframes results from a single "top match" to three plausible lives (Plan A / B / C). Reduces the implicit overclaim of certainty.</div>
+        </div>
+        <div class="content-row">
+          <div class="row-label">07 · ASCA &amp; NACE standards coverage</div>
+          <div class="row-content">The counselor-facing PDF export shows which standards a complete Synapse session evidences. Invisible to students, decisive for school adoption.</div>
+        </div>
+      </div>
+
+      <div class="case-prose" style="margin-top: var(--space-8);">
+        <p>Two further lines (longitudinal reliability via localStorage snapshots; backfill of prestige-disadvantaged careers like welder, paralegal, and dental hygienist) are in scope but lower priority for the current 90-day cycle.</p>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS: QUESTIONS -->
+    <div class="image-grid image-grid--3col">
+      <img src="../images/gallery/synapse-q01-energizes.jpg" alt="Binary question, What Energizes You: Manifest vs Decipher" style="width:100%; height:auto; display:block; border-radius: 8px;">
+      <img src="../images/gallery/synapse-q06-subjects.jpg" alt="Multi-select question, What subjects pull you in?" style="width:100%; height:auto; display:block; border-radius: 8px;">
+      <img src="../images/synapse/q07-workstyle.png" alt="Slider question, How do you prefer to work?" style="width:100%; height:auto; display:block; border-radius: 8px;">
+    </div>
+    <div class="image-grid image-grid--2col" style="margin-top: var(--space-6);">
+      <img src="../images/synapse/q10-money-meaning.png" alt="Binary question, Money or Meaning: Passion vs Pay" style="width:100%; height:auto; display:block; border-radius: 8px;">
+      <img src="../images/synapse/q08-dealbreakers.png" alt="Anti-vibe question, What's NOT your vibe?" style="width:100%; height:auto; display:block; border-radius: 8px;">
+    </div>
+
+    <!-- PROCESS -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">The Process</div>
+
+        <p>The first version was a traditional quiz with a ranked list of results. The redesign moved the output to a spatial map because the wayfinding metaphor predicts a different mode of engagement: exploration rather than selection. The question count was reduced from 20 to 13 across design iterations, keeping the set that produced the most distinct profiles in design-team review. All career data comes from BLS Occupational Employment and Wage Statistics and O*NET.</p>
+      </div>
+    </section>
+
+    <!-- DESIGN RATIONALE -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">Design Rationale</div>
+
+        <p>Three design-rationale claims the spatial-map move rests on. Each is a hypothesis the working paper documents in §5.3 and that the empirical-study stage is set up to test under a future consent infrastructure.</p>
+      </div>
+
+      <div class="case-findings" style="margin-top: var(--space-8);">
+        <div class="content-row">
+          <div class="row-label">Maps should produce more exploration than ranked lists</div>
+          <div class="row-content">The design hypothesis is that a spatial output supports the "productive wandering" mode of engagement the lab also designs for in DartWorld, while a ranked-list output supports the "find the right answer" mode. Whether the map format actually produces measurably more exploration than the list format is one of the open empirical questions in the Synapse working paper.</div>
+        </div>
+
+        <div class="content-row">
+          <div class="row-label">13 questions is the working choice</div>
+          <div class="row-content">Fewer questions produced profiles that felt too broad in design-team review; more felt random. Thirteen is the working choice the lab settled on across iterations: specific enough to differentiate, fast enough to finish in under five minutes. Whether 13 is in fact the optimal question count is an empirical question the lab has not formally tested.</div>
+        </div>
+
+        <div class="content-row">
+          <div class="row-label">Connections should matter more than rankings</div>
+          <div class="row-content">The Synapse map foregrounds relations between careers (adjacency) rather than rank order (top match). The design hypothesis is that relations carry more developmental information than rankings for an exploration task. The empirical comparison of relation-foregrounded vs. rank-foregrounded outputs remains open.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS: RESULTS -->
+    <div class="image-grid image-grid--hero">
+      <img src="../images/gallery/synapse-results-top.jpg" alt="Synapse results, 12 career pathways with network visualization and profile snapshot" style="width:100%; height:auto; display:block; border-radius: 8px;">
+    </div>
+    <div class="image-grid image-grid--2col" style="margin-top: var(--space-6);">
+      <img src="../images/gallery/synapse-compression.jpg" alt="Synthesizing Your Pathways, compression animation" style="width:100%; height:auto; display:block; border-radius: 8px;">
+      <img src="../images/synapse/compression-question.png" alt="Compression question, Are you ready to trade early income for long-term meaning?" style="width:100%; height:auto; display:block; border-radius: 8px;">
+    </div>
+
+    <!-- CURRENT STATUS -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">Where It Stands</div>
+
+        <p>Synapse is live at <a href="https://www.sethlooper.com/synapse/" target="_blank" rel="noopener noreferrer">sethlooper.com/synapse</a> and was used in the Career Design Lab program at Dartmouth, 2024–2026. Whether spatial exploration improves the quality of downstream decisions compared to list-based tools is one of the open research lines the working paper documents; it would require an IRB-reviewed study, for example with a counselor-education program, to test directly.</p>
+      </div>
+    </section>
+
+    <!-- CROSS-REFERENCES -->
+    <section class="section fade-up">
+      <div class="content-block">
+        <div class="block-label">Related</div>
+      </div>
+      <div class="related-grid">
+        <a href="dartworld.html" class="no-rule">
+          <span class="rel-kind">Report 01</span>
+          <div class="rel-title">DartWorld</div>
+          <div class="rel-note">The platform where the 'productive wandering' pattern was first observed in design review before Synapse was built.</div>
+        </a>
+        <a href="career-design-lab.html" class="no-rule">
+          <span class="rel-kind">Report 03</span>
+          <div class="rel-title">Career Design Lab</div>
+          <div class="rel-note">The term-long Dartmouth program where Synapse was used inside the broader deliberation sequence (2024–2026).</div>
+        </a>
+        <a href="../methods/index.html#spatial" class="no-rule">
+          <span class="rel-kind">Method</span>
+          <div class="rel-title">Spatial mapping</div>
+          <div class="rel-note">The general method behind Synapse and the DartWorld 3D environment.</div>
+        </a>
+      </div>
+    </section>    <!-- Reuse / citation policy, applied site-wide -->
+    <!-- WORKING PAPER -->
+    <section class="section fade-up">
+      <div class="case-prose">
+        <div class="case-section-label">Working Paper</div>
+        <p style="margin-top: var(--space-4);">
+          Looper, S. (2026a). <a href="../publications/index.html#paper-synapse"><em>From Ranked Match to Spatial Map: A Design-Based Inquiry into Career Exploration Interface Affordances</em></a>. Lo/Be Lab Working Reports, 2026-01. <a href="../publications/pdf/20260528_Looper_Synapse_LoBeLab.pdf">[pdf]</a>
+        </p>
+        <p style="margin-top: var(--space-3); font-size: var(--text-sm); color: var(--color-muted);">
+          See the full abstract on the <a href="../publications/index.html">publications page</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="press-boilerplate">
+      <span class="pb-label">Use &amp; citation</span>
+      <p>Material on this site may be cited and reused under CC BY-NC 4.0, with credit to Lo/Be Lab.</p>
+      <p>For citation requests, collaborations, or pushback on a published claim, <a href="mailto:seth.looper@gmail.com">seth.looper@gmail.com</a>. Site licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.</p>
+    </section>
+
+
+
+</main>
+
+<footer class="site-footer">
+      <span>© 2026 <strong>Lo/Be Studio LLC.</strong> New Haven, CT.</span>
+      <span><a href="https://orcid.org/0009-0002-8683-1632" target="_blank" rel="noopener"><img src="https://orcid.org/assets/vectors/orcid.logo.icon.svg" alt="ORCID iD" style="display:inline-block;width:12px;height:12px;vertical-align:middle;margin-right:6px;"/>0009-0002-8683-1632</a></span>
+      <span>Set in Inter.</span>
+      <span>CC BY-NC 4.0.</span>
+    </footer>
+
+  <script src="../js/main.js?v=47"></script>
+</body>
+</html>

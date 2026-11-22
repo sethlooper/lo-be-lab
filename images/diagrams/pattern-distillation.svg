@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">PATTERN DISTILLATION : COMPRESSION EXERCISE</text>
+  <rect x="60" y="140" width="140" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="130" y="197" text-anchor="middle" font-size="9" font-weight="600" letter-spacing="0.8" fill="#1a1a1a">PARAGRAPH</text>
+  <text x="130" y="214" text-anchor="middle" font-size="8" fill="#999">full story</text>
+  <rect x="350" y="160" width="100" height="80" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="400" y="197" text-anchor="middle" font-size="9" font-weight="600" letter-spacing="0.8" fill="#1a1a1a">SENTENCE</text>
+  <text x="400" y="214" text-anchor="middle" font-size="8" fill="#999">compressed</text>
+  <rect x="610" y="170" width="60" height="60" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="1.2"/>
+  <text x="640" y="197" text-anchor="middle" font-size="9" font-weight="600" letter-spacing="0.8" fill="#ffffff">ONE WORD</text>
+  <text x="640" y="214" text-anchor="middle" font-size="8" fill="#ffffff">core</text>
+  <line x1="200" y1="200" x2="350" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="344,196 350,200 344,204" fill="#1a1a1a"/>
+  <line x1="450" y1="200" x2="610" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="604,196 610,200 604,204" fill="#1a1a1a"/>
+  <polyline points="400,240 400,310 640,310 640,230" fill="none" stroke="#E85D3A" stroke-width="0.75" stroke-dasharray="4,3"/>
+  <text x="520" y="330" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">peer conversation at every stage</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 6</text>
+</svg>

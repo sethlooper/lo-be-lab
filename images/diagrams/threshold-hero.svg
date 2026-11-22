@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="320" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">THRESHOLD : ARCHITECTURE CAREER TOOLKIT</text>
+  <rect x="120" y="80" width="120" height="180" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="180" y="110" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#1a1a1a">CONTENT</text>
+  <text x="180" y="140" text-anchor="middle" font-size="8.5" fill="#999">firm profiles</text>
+  <text x="180" y="160" text-anchor="middle" font-size="8.5" fill="#999">licensure paths</text>
+  <text x="180" y="180" text-anchor="middle" font-size="8.5" fill="#999">comp data</text>
+  <rect x="340" y="80" width="120" height="180" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="1.2"/>
+  <text x="400" y="110" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#ffffff">REFLECTION</text>
+  <text x="400" y="140" text-anchor="middle" font-size="8.5" fill="#ccc">values exercises</text>
+  <text x="400" y="160" text-anchor="middle" font-size="8.5" fill="#ccc">critique-based</text>
+  <text x="400" y="180" text-anchor="middle" font-size="8.5" fill="#ccc">self-assessment</text>
+  <rect x="560" y="80" width="120" height="180" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="620" y="110" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#1a1a1a">PRACTICE</text>
+  <text x="620" y="140" text-anchor="middle" font-size="8.5" fill="#999">real economics</text>
+  <text x="620" y="160" text-anchor="middle" font-size="8.5" fill="#999">hierarchies</text>
+  <text x="620" y="180" text-anchor="middle" font-size="8.5" fill="#999">decision points</text>
+  <polyline points="240,170 310,170 310,170 340,170" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <polygon points="338,166 344,170 338,174" fill="#1a1a1a"/>
+  <polyline points="460,170 530,170 530,170 560,170" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <polygon points="558,166 564,170 558,174" fill="#1a1a1a"/>
+  <line x1="32" y1="296" x2="72" y2="296" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="310" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 1</text>
+</svg>

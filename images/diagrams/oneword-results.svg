@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">ONEWORD : 64 POSSIBLE ANCHORS</text>
+  <rect x="100" y="90" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="145" y="114" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Builder</text>
+  <rect x="210" y="90" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="255" y="114" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Connector</text>
+  <rect x="320" y="90" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="365" y="114" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Strategist</text>
+  <rect x="430" y="90" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="475" y="114" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Guardian</text>
+  <rect x="540" y="90" width="90" height="40" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="0.8"/>
+  <text x="585" y="114" text-anchor="middle" font-size="9" font-weight="500" fill="#ffffff">Explorer</text>
+  <rect x="650" y="90" width="90" height="40" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="0.8"/>
+  <text x="695" y="114" text-anchor="middle" font-size="9" font-weight="500" fill="#ffffff">Catalyst</text>
+  <rect x="100" y="160" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="145" y="184" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Architect</text>
+  <rect x="210" y="160" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="255" y="184" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Mentor</text>
+  <rect x="320" y="160" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="365" y="184" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Pioneer</text>
+  <rect x="430" y="160" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="475" y="184" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Advocate</text>
+  <rect x="540" y="160" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="585" y="184" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Analyst</text>
+  <rect x="650" y="160" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="695" y="184" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Designer</text>
+  <rect x="100" y="230" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="145" y="254" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Mediator</text>
+  <rect x="210" y="230" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="255" y="254" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Innovator</text>
+  <rect x="320" y="230" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="365" y="254" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Curator</text>
+  <rect x="430" y="230" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="475" y="254" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Steward</text>
+  <rect x="540" y="230" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="585" y="254" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Challenger</text>
+  <rect x="650" y="230" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="695" y="254" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Bridger</text>
+  <rect x="100" y="300" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="145" y="324" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Observer</text>
+  <rect x="210" y="300" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="255" y="324" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Sculptor</text>
+  <rect x="320" y="300" width="90" height="40" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="0.8"/>
+  <text x="365" y="324" text-anchor="middle" font-size="9" font-weight="500" fill="#ffffff">Navigator</text>
+  <rect x="430" y="300" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="475" y="324" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Weaver</text>
+  <rect x="540" y="300" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="585" y="324" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Translator</text>
+  <rect x="650" y="300" width="90" height="40" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="695" y="324" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">Anchor</text>
+  <text x="400" y="380" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">3 dimensions × 2 poles each = 64 possible words</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 9</text>
+</svg>

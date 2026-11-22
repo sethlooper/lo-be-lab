@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" font-family="Inter, Arial, sans-serif">
+  <rect width="900" height="320" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a1a">The Architecture of Becoming: a four-part design vocabulary</text>
+  <text x="450" y="58" text-anchor="middle" font-size="13" fill="#666">Sequenced design moves that build a chooser, not steer a choice</text>
+  <!-- arrow track -->
+  <line x1="120" y1="170" x2="780" y2="170" stroke="#c9d6e5" stroke-width="3"/>
+  <g>
+    <!-- 1 Reflection -->
+    <circle cx="150" cy="170" r="52" fill="#eaf1f8" stroke="#2E75B6" stroke-width="2"/>
+    <text x="150" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#1F4E79">Reflection</text>
+    <text x="150" y="186" text-anchor="middle" font-size="10.5" fill="#555">the student</text>
+    <text x="150" y="200" text-anchor="middle" font-size="10.5" fill="#555">articulates</text>
+    <!-- 2 Interpretation -->
+    <circle cx="360" cy="170" r="52" fill="#eaf1f8" stroke="#2E75B6" stroke-width="2"/>
+    <text x="360" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#1F4E79">Interpretation</text>
+    <text x="360" y="186" text-anchor="middle" font-size="10.5" fill="#555">surfaces</text>
+    <text x="360" y="200" text-anchor="middle" font-size="10.5" fill="#555">patterns</text>
+    <!-- 3 Visualization -->
+    <circle cx="570" cy="170" r="52" fill="#eaf1f8" stroke="#2E75B6" stroke-width="2"/>
+    <text x="570" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#1F4E79">Visualization</text>
+    <text x="570" y="186" text-anchor="middle" font-size="10.5" fill="#555">sees</text>
+    <text x="570" y="200" text-anchor="middle" font-size="10.5" fill="#555">configurations</text>
+    <!-- 4 Action -->
+    <circle cx="780" cy="170" r="52" fill="#1F4E79" stroke="#1F4E79" stroke-width="2"/>
+    <text x="780" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Action</text>
+    <text x="780" y="186" text-anchor="middle" font-size="10.5" fill="#d6e4f0">moves, after</text>
+    <text x="780" y="200" text-anchor="middle" font-size="10.5" fill="#d6e4f0">the prior work</text>
+  </g>
+  <text x="255" y="258" text-anchor="middle" font-size="11" fill="#888">&#8594;</text>
+  <text x="465" y="258" text-anchor="middle" font-size="11" fill="#888">&#8594;</text>
+  <text x="675" y="258" text-anchor="middle" font-size="11" fill="#888">&#8594;</text>
+  <text x="450" y="292" text-anchor="middle" font-size="11.5" fill="#666">Each move addresses a distinct failure mode of the conventional service-delivery pattern.</text>
+</svg>

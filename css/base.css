@@ -1,0 +1,413 @@
+/**
+ * Lo/Be Lab - Base styles
+ *
+ * Default-looking typography. Plain hyperlinks. No fixed nav.
+ * The page is a long readable column. That's it.
+ */
+
+/* ========== RESET (minimal) ========== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--lh-relaxed);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-weight: var(--weight-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'kern', 'liga', 'calt', 'ss01';
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, figure, hr {
+  margin: 0;
+}
+
+/* ========== HEADINGS ========== */
+
+h1 {
+  font-family: var(--font-sans);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-semibold);
+  line-height: var(--lh-snug);
+  letter-spacing: -0.015em;
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+}
+
+h2 {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  line-height: var(--lh-snug);
+  letter-spacing: -0.005em;
+  margin-top: var(--space-10);
+  margin-bottom: var(--space-3);
+}
+
+h3 {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  line-height: var(--lh-snug);
+  letter-spacing: -0.005em;
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-2);
+}
+
+h4 {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  font-style: italic;
+  line-height: var(--lh-snug);
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-2);
+}
+
+/* First heading inside the content area has less top margin */
+main > h1:first-child,
+main > h2:first-of-type:first-child,
+.page-content > h1:first-child,
+.hero-intro h1 {
+  margin-top: 0;
+}
+
+em, i { font-style: italic; }
+strong, b { font-weight: var(--weight-semibold); }
+small { font-size: var(--text-sm); color: var(--color-muted); }
+
+/* ========== PROSE ========== */
+
+p {
+  margin: 0 0 var(--space-5) 0;
+  max-width: var(--measure);
+}
+
+p:last-child { margin-bottom: 0; }
+
+ul, ol {
+  margin: 0 0 var(--space-5) 0;
+  padding-left: 1.4em;
+  max-width: var(--measure);
+}
+
+li { margin-bottom: var(--space-2); }
+li:last-child { margin-bottom: 0; }
+
+dl {
+  margin: 0 0 var(--space-5) 0;
+  max-width: var(--measure);
+}
+
+dt {
+  font-weight: var(--weight-medium);
+  margin-top: var(--space-3);
+}
+
+dt:first-child { margin-top: 0; }
+
+dd {
+  margin: 0 0 var(--space-3) 0;
+}
+
+blockquote {
+  margin: var(--space-6) 0;
+  padding-left: var(--space-5);
+  border-left: var(--hairline) solid var(--color-rule);
+  font-style: italic;
+  color: var(--color-ink);
+  max-width: var(--measure);
+}
+
+/* ========== LINKS ========== */
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-rule);
+  transition: text-decoration-color var(--duration-base) var(--easing);
+}
+
+a:hover {
+  text-decoration-color: var(--color-ink);
+}
+
+a.no-rule,
+nav a.no-rule {
+  text-decoration: none;
+}
+
+/* ========== MEDIA ========== */
+
+img, video, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========== SELECTION ========== */
+
+::selection {
+  background: var(--color-mark);
+  color: var(--color-ink);
+}
+
+/* ========== HORIZONTAL RULE ========== */
+
+hr,
+hr.rule {
+  border: 0;
+  border-top: var(--hairline) solid var(--color-rule);
+  margin: var(--space-12) 0;
+  width: 100%;
+  max-width: var(--measure);
+}
+
+/* ========== NAV ========== */
+
+/* Nav is plain - sits at the top of the document flow, not fixed.
+   No masthead, no pulsing dots, no Roman numerals. Just a wordmark and links. */
+
+.page-frame {
+  background: var(--color-paper);
+}
+
+.site-nav {
+  /* Edge-to-edge on every page (was previously scoped to body.home).
+     The nav frames the page, so it sits outside the content column's
+     max-width. 16px horizontal breathing room mirrors the home page. */
+  padding: var(--space-6) var(--space-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-6);
+  font-size: var(--text-sm);
+  flex-wrap: wrap;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.nav-left a {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  color: var(--color-ink);
+}
+
+/* Mark + wordmark lockup - Senseable City Lab pattern */
+.nav-logo {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--color-ink);                  /* inherited by SVG via currentColor */
+}
+
+.nav-wordmark {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);              /* 13px - institutional small */
+  font-weight: var(--weight-bold);          /* 700 */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;                /* LO/BE LAB */
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+/* The mid-nav "meta" strip is gone. If a page still emits it, hide it. */
+.nav-meta { display: none; }
+
+.nav-right {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.nav-right a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  color: var(--color-ink);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.nav-right a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+}
+
+/* Senseable-atelier number prefix: small tabular numerals slightly
+   above each link's baseline, in the muted ink color. Bolder + ink
+   when the link is hovered or marks the current page. */
+.nav-right a .nav-num {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  color: var(--color-muted);
+  /* Slight raise - reads as a chapter-number prefix, not a superscript */
+  position: relative;
+  top: -0.15em;
+  transition: color 160ms ease;
+}
+
+.nav-right a:hover .nav-num,
+.nav-right a.active .nav-num {
+  color: var(--color-ink);
+}
+
+.nav-right a.active .nav-num {
+  font-weight: 700;
+}
+
+/* ========== MAIN COLUMN ========== */
+
+.page-content {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: var(--space-10) var(--page-padding) var(--space-20);
+}
+
+/* Wider pages (index / archive) opt into wider column via .page-content--wide */
+.page-content--wide { max-width: var(--page-max-wide); }
+
+/* ========== SECTIONS ========== */
+
+section {
+  margin-bottom: 0;
+}
+
+/* The data-section §-marker pseudo-element is retired -
+   normal h2/h3 headings carry the structure now. */
+.section[data-section]::before { content: none; }
+.section[data-section] { padding-left: 0; }
+
+/* Dot-grid dividers and legacy hairlines become a single plain rule */
+.dot-grid,
+.dot-grid::before,
+.dot-grid::after {
+  display: block;
+  content: '';
+  height: 0;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+.dot-grid {
+  border-top: var(--hairline) solid var(--color-rule);
+  margin: var(--space-12) 0;
+  max-width: var(--measure);
+  grid-template-columns: none;
+  gap: 0;
+}
+
+/* ========== FOOTER ========== */
+
+/* Plain one-line footer. Edge-to-edge with 16px breathing room,
+   matching the home page (.landing-footer). The rule above the footer
+   is drawn by ::before so it spans the full viewport regardless of
+   the footer's own padding. */
+.site-footer {
+  margin-top: var(--space-16);
+  padding: var(--space-6) var(--space-4) var(--space-10);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2) var(--space-5);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  align-items: baseline;
+  text-align: center;
+}
+
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw);
+  right: calc(50% - 50vw);
+  height: var(--hairline);
+  background: var(--color-rule);
+}
+
+.site-footer .colophon {
+  font-family: var(--font-serif);
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+.site-footer .colophon strong {
+  color: var(--color-ink);
+  font-weight: var(--weight-medium);
+}
+
+.site-footer .footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+/* ========== NEUTRALIZE LEGACY INLINE CHROME ========== */
+
+/* Inner-page HTML still has scattered inline text-transform: uppercase
+   from the previous "working paper" design. The new aesthetic uses
+   sentence case throughout - override these inline rules globally. */
+[style*="text-transform: uppercase"],
+[style*="text-transform:uppercase"] {
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+/* Legacy "mono" font-family inline styles now render as serif italic
+   (since --font-mono aliases to --font-serif). Lend them an italic cast
+   so they still read as "metadata" rather than blending into body prose. */
+[style*="font-family: var(--font-mono)"],
+[style*="font-family:var(--font-mono)"] {
+  font-style: italic;
+}
+
+/* ========== ANIMATIONS RETIRED ========== */
+
+/* The fade-up reveal is gone. Pages just load. */
+.fade-up { opacity: 1; transform: none; }
+body.js-loaded .fade-up { opacity: 1; transform: none; transition: none; }
+body.js-loaded .fade-up.visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

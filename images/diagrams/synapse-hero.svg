@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="320" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">SYNAPSE : 460 OCCUPATIONS ON A SPATIAL MAP</text>
+  <text x="180" y="105" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">HEALTH</text>
+  <circle cx="174" cy="172" r="6" fill="#1a1a1a" opacity="0.18"/>
+  <circle cx="159" cy="155" r="3" fill="#1a1a1a" opacity="0.33"/>
+  <circle cx="203" cy="166" r="3" fill="#1a1a1a" opacity="0.18"/>
+  <circle cx="146" cy="178" r="3" fill="#1a1a1a" opacity="0.23"/>
+  <circle cx="150" cy="129" r="5" fill="#1a1a1a" opacity="0.29"/>
+  <circle cx="190" cy="159" r="6" fill="#1a1a1a" opacity="0.25"/>
+  <circle cx="188" cy="170" r="4" fill="#1a1a1a" opacity="0.44"/>
+  <circle cx="192" cy="187" r="6" fill="#1a1a1a" opacity="0.28"/>
+  <circle cx="170" cy="157" r="3" fill="#1a1a1a" opacity="0.22"/>
+  <circle cx="170" cy="138" r="4" fill="#1a1a1a" opacity="0.35"/>
+  <circle cx="162" cy="166" r="6" fill="#1a1a1a" opacity="0.39"/>
+  <circle cx="181" cy="189" r="5" fill="#1a1a1a" opacity="0.46"/>
+  <text x="350" y="75" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">TECH</text>
+  <circle cx="348" cy="112" r="7" fill="#E85D3A" opacity="1"/>
+  <circle cx="367" cy="146" r="6" fill="#E85D3A" opacity="1"/>
+  <circle cx="365" cy="151" r="3" fill="#1a1a1a" opacity="0.38"/>
+  <circle cx="353" cy="101" r="7" fill="#1a1a1a" opacity="0.26"/>
+  <circle cx="340" cy="102" r="5" fill="#1a1a1a" opacity="0.31"/>
+  <circle cx="373" cy="94" r="5" fill="#1a1a1a" opacity="0.38"/>
+  <circle cx="382" cy="143" r="6" fill="#1a1a1a" opacity="0.50"/>
+  <circle cx="358" cy="113" r="5" fill="#1a1a1a" opacity="0.38"/>
+  <circle cx="375" cy="134" r="4" fill="#1a1a1a" opacity="0.19"/>
+  <circle cx="384" cy="143" r="4" fill="#1a1a1a" opacity="0.24"/>
+  <circle cx="319" cy="155" r="3" fill="#1a1a1a" opacity="0.31"/>
+  <circle cx="311" cy="118" r="6" fill="#1a1a1a" opacity="0.45"/>
+  <text x="520" y="125" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">BUSINESS</text>
+  <circle cx="516" cy="203" r="4" fill="#1a1a1a" opacity="0.46"/>
+  <circle cx="533" cy="176" r="4" fill="#1a1a1a" opacity="0.23"/>
+  <circle cx="523" cy="206" r="5" fill="#1a1a1a" opacity="0.24"/>
+  <circle cx="543" cy="181" r="4" fill="#1a1a1a" opacity="0.35"/>
+  <circle cx="552" cy="170" r="5" fill="#1a1a1a" opacity="0.37"/>
+  <circle cx="516" cy="171" r="7" fill="#1a1a1a" opacity="0.42"/>
+  <circle cx="546" cy="153" r="5" fill="#1a1a1a" opacity="0.29"/>
+  <circle cx="545" cy="199" r="3" fill="#1a1a1a" opacity="0.17"/>
+  <circle cx="524" cy="194" r="4" fill="#1a1a1a" opacity="0.17"/>
+  <circle cx="534" cy="180" r="3" fill="#1a1a1a" opacity="0.28"/>
+  <circle cx="560" cy="186" r="5" fill="#1a1a1a" opacity="0.20"/>
+  <circle cx="520" cy="201" r="4" fill="#1a1a1a" opacity="0.19"/>
+  <text x="400" y="195" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">EDUCATION</text>
+  <circle cx="426" cy="214" r="5" fill="#E85D3A" opacity="1"/>
+  <circle cx="389" cy="251" r="3" fill="#E85D3A" opacity="1"/>
+  <circle cx="390" cy="265" r="6" fill="#1a1a1a" opacity="0.21"/>
+  <circle cx="443" cy="256" r="5" fill="#1a1a1a" opacity="0.20"/>
+  <circle cx="391" cy="248" r="5" fill="#1a1a1a" opacity="0.49"/>
+  <circle cx="422" cy="224" r="4" fill="#1a1a1a" opacity="0.28"/>
+  <circle cx="418" cy="282" r="5" fill="#1a1a1a" opacity="0.42"/>
+  <circle cx="392" cy="264" r="6" fill="#1a1a1a" opacity="0.49"/>
+  <circle cx="423" cy="220" r="6" fill="#1a1a1a" opacity="0.41"/>
+  <circle cx="404" cy="277" r="4" fill="#1a1a1a" opacity="0.16"/>
+  <circle cx="418" cy="253" r="4" fill="#1a1a1a" opacity="0.39"/>
+  <circle cx="424" cy="243" r="7" fill="#1a1a1a" opacity="0.50"/>
+  <text x="650" y="145" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">CREATIVE</text>
+  <circle cx="671" cy="194" r="4" fill="#1a1a1a" opacity="0.23"/>
+  <circle cx="655" cy="215" r="5" fill="#1a1a1a" opacity="0.47"/>
+  <circle cx="664" cy="178" r="6" fill="#1a1a1a" opacity="0.43"/>
+  <circle cx="678" cy="216" r="7" fill="#1a1a1a" opacity="0.42"/>
+  <circle cx="650" cy="174" r="4" fill="#1a1a1a" opacity="0.43"/>
+  <circle cx="631" cy="233" r="7" fill="#1a1a1a" opacity="0.29"/>
+  <circle cx="615" cy="225" r="6" fill="#1a1a1a" opacity="0.21"/>
+  <circle cx="659" cy="210" r="7" fill="#1a1a1a" opacity="0.43"/>
+  <circle cx="673" cy="231" r="7" fill="#1a1a1a" opacity="0.38"/>
+  <circle cx="633" cy="223" r="4" fill="#1a1a1a" opacity="0.15"/>
+  <circle cx="682" cy="194" r="5" fill="#1a1a1a" opacity="0.48"/>
+  <circle cx="613" cy="216" r="6" fill="#1a1a1a" opacity="0.22"/>
+  <line x1="220" y1="160" x2="310" y2="130" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="390" y1="130" x2="480" y2="180" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="440" y1="250" x2="520" y2="200" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="32" y1="296" x2="72" y2="296" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="310" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 1</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" preserveAspectRatio="xMidYMid meet" font-family="Inter, Helvetica Neue, Helvetica, Arial, sans-serif"><rect width="880" height="260" fill="#ffffff"/><text x="440" y="34" text-anchor="middle" font-size="15" font-weight="600" letter-spacing="0.3" fill="#111111">Methods generalize; vocabulary is rebuilt</text>
+<rect x="160" y="54" width="560" height="58" fill="#000000"/>
+<text x="440" y="80" text-anchor="middle" font-size="12.5" font-weight="600" fill="#fff">Generalizable methods layer</text>
+<text x="440" y="100" text-anchor="middle" font-size="10.5" fill="#cfcfcf">reflection, interpretation, visualization, action  (ports across disciplines)</text>
+<text x="440" y="136" text-anchor="middle" font-size="10" letter-spacing="0.5" fill="#7d7d7d">&#8595;  REBUILT FOR EACH FIELD  &#8595;</text>
+<g font-size="10.5">
+<rect x="120" y="150" width="200" height="62" fill="none" stroke="#111111" stroke-width="0.9"/><text x="220" y="176" text-anchor="middle" font-weight="600" fill="#111111">Architecture</text><text x="220" y="194" text-anchor="middle" fill="#7d7d7d">licensure, studio crit,</text><text x="220" y="208" text-anchor="middle" fill="#7d7d7d">firm types, portfolio</text>
+<rect x="350" y="150" width="200" height="62" fill="none" stroke="#dcdcdc"/><text x="450" y="176" text-anchor="middle" font-weight="600" fill="#7d7d7d">Discipline B</text><text x="450" y="196" text-anchor="middle" font-style="italic" fill="#b6b6b6">(planned port)</text>
+<rect x="580" y="150" width="200" height="62" fill="none" stroke="#dcdcdc"/><text x="680" y="176" text-anchor="middle" font-weight="600" fill="#7d7d7d">Discipline C</text><text x="680" y="196" text-anchor="middle" font-style="italic" fill="#b6b6b6">(future)</text></g>
+<text x="440" y="240" text-anchor="middle" font-size="10.5" fill="#7d7d7d">The port to a second discipline is the decisive test of generalizability.</text></svg>

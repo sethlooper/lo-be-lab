@@ -1,0 +1,128 @@
+/**
+ * Lo/Be Lab - Design Tokens
+ *
+ * "Working Notebook" - compressed scale, one typeface.
+ * Hierarchy comes from italic, weight, color, and whitespace,
+ * NOT from large display sizes. Everything stays in a narrow band.
+ */
+
+:root {
+  /* ========== TYPOGRAPHY ========== */
+
+  /* Sans-serif primary. Inter for that MIT Media Lab / Stripe modernity.
+     The legacy alias --font-serif is kept so existing inline styles still resolve. */
+  --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: var(--font-sans);
+  --font-body:  var(--font-sans);
+
+  /* Compressed sans-serif scale. Inter has tall x-heights, so the
+     numeric sizes are smaller than the serif scale we started with -
+     visually they're similar. MIT Media Lab / Stripe Press territory. */
+  --text-2xs:  10px;   /* legacy alias */
+  --text-xs:   11px;
+  --text-sm:   12px;   /* metadata, dates, italic asides */
+  --text-base: 13px;   /* body text - the default */
+  --text-md:   14px;   /* slightly emphasised paragraph */
+  --text-lg:   15px;   /* rare */
+  --text-xl:   16px;   /* H2 and ALL page titles (H1) */
+  --text-2xl:  16px;   /* alias - same as xl, kept for back-compat */
+  --text-3xl:  16px;   /* alias */
+  --text-display: 16px; /* alias */
+  --text-hero: 16px;   /* alias */
+
+  /* Legacy font alias: mono inline styles now resolve to the body sans.
+     Note: --font-sans is defined at the top of this block - do NOT redefine
+     it here, or we create a circular var chain that resolves to nothing. */
+  --font-mono: var(--font-sans);
+
+  /* Legacy letter-spacing aliases - all collapsed to zero (no mono tracking) */
+  --ls-wide:    0;
+  --ls-wider:   0;
+  --ls-widest:  0;
+
+  /* Legacy color alias - soft ink now reads as full ink */
+  --color-ink-soft: var(--color-ink);
+
+  /* Weights */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* Line heights */
+  --lh-tight:   1.18;
+  --lh-snug:    1.28;
+  --lh-body:    1.5;
+  --lh-relaxed: 1.6;
+  --lh-loose:   1.72;
+
+  /* Letter spacing - minimal */
+  --ls-tightest: -0.012em;
+  --ls-tight:    -0.005em;
+  --ls-normal:   0;
+
+  /* ========== COLOR ========== */
+
+  --color-paper: #FAF8F1;
+  --color-ink:   #1A1A1A;
+  --color-muted: #6B6862;
+  --color-rule:  #D7D2C4;
+  --color-mark:  #F2E9C8;
+
+  --color-link:       var(--color-ink);
+  --color-link-hover: var(--color-ink);
+
+  /* Back-compat aliases */
+  --color-text:           var(--color-ink);
+  --color-text-secondary: var(--color-ink);
+  --color-text-muted:     var(--color-muted);
+  --color-bg:             var(--color-paper);
+  --color-bg-white:       var(--color-paper);
+  --color-bg-dark:        #18171A;
+  --color-bg-dark-secondary: #232128;
+  --color-border:         var(--color-rule);
+  --color-border-light:   var(--color-rule);
+  --color-signal:         var(--color-ink);
+  --color-signal-hover:   var(--color-ink);
+
+  /* ========== LAYOUT ========== */
+
+  --page-max: 640px;            /* tighter reading column */
+  --page-max-wide: 880px;       /* index pages */
+  --page-padding: 28px;
+  --measure: 62ch;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 56px;
+  --space-16: 80px;
+  --space-20: 104px;
+
+  --hairline: 1px;
+
+  /* ========== MOTION ========== */
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --easing: ease;
+}
+
+/* ========== RESPONSIVE ========== */
+
+@media (max-width: 700px) {
+  :root {
+    --page-padding: 22px;
+    --text-base: 13px;
+    --text-md: 14px;
+    --text-lg: 15px;
+    --text-xl: 16px;
+    --text-2xl: 16px;
+    --text-display: 16px;
+  }
+}

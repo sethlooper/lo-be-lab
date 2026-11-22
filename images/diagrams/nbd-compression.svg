@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">NARRATIVE COMPRESSION : 5 PHASES</text>
+
+  <!-- 5 phases as connected nodes -->
+  <!-- Phase 1: Brain Dump -->
+  <rect x="40" y="80" width="120" height="50" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="100" y="102" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a1a">BRAIN DUMP</text>
+  <text x="100" y="116" text-anchor="middle" font-size="8" fill="#999">90 sec write</text>
+
+  <!-- Phase 2: Compress -->
+  <rect x="200" y="80" width="120" height="50" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="260" y="102" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a1a">COMPRESS</text>
+  <text x="260" y="116" text-anchor="middle" font-size="8" fill="#999">sentence → word</text>
+
+  <!-- Phase 3: Ground -->
+  <rect x="360" y="80" width="120" height="50" rx="2" fill="#1a1a1a"/>
+  <text x="420" y="102" text-anchor="middle" font-size="9" font-weight="600" fill="#ffffff">GROUND IT</text>
+  <text x="420" y="116" text-anchor="middle" font-size="8" fill="#aaa">card sorts</text>
+
+  <!-- Phase 4: Test -->
+  <rect x="520" y="80" width="120" height="50" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="580" y="102" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a1a">TEST IT</text>
+  <text x="580" y="116" text-anchor="middle" font-size="8" fill="#999">word vs evidence</text>
+
+  <!-- Phase 5: Rewrite -->
+  <rect x="680" y="80" width="100" height="50" rx="2" fill="#E85D3A"/>
+  <text x="730" y="102" text-anchor="middle" font-size="9" font-weight="600" fill="#ffffff">REWRITE</text>
+  <text x="730" y="116" text-anchor="middle" font-size="8" fill="#ffffff" opacity="0.7">new paragraph</text>
+
+  <!-- Arrows between phases -->
+  <polyline points="160,105 198,105" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="196,101 202,105 196,109" fill="#1a1a1a"/>
+  <polyline points="320,105 358,105" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="356,101 362,105 356,109" fill="#1a1a1a"/>
+  <polyline points="480,105 518,105" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="516,101 522,105 516,109" fill="#1a1a1a"/>
+  <polyline points="640,105 678,105" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="676,101 682,105 676,109" fill="#1a1a1a"/>
+
+  <!-- Below: what happens at each stage -->
+  <!-- Vertical lines down from each phase -->
+  <line x1="100" y1="130" x2="100" y2="170" stroke="#1a1a1a" stroke-width="0.75"/>
+  <line x1="260" y1="130" x2="260" y2="170" stroke="#1a1a1a" stroke-width="0.75"/>
+  <line x1="420" y1="130" x2="420" y2="170" stroke="#1a1a1a" stroke-width="0.75"/>
+  <line x1="580" y1="130" x2="580" y2="170" stroke="#1a1a1a" stroke-width="0.75"/>
+  <line x1="730" y1="130" x2="730" y2="170" stroke="#1a1a1a" stroke-width="0.75"/>
+
+  <!-- Transformation boxes below -->
+  <text x="100" y="190" text-anchor="middle" font-size="8" fill="#999">raw material</text>
+  <text x="100" y="205" text-anchor="middle" font-size="8" fill="#999">↓</text>
+  <text x="100" y="220" text-anchor="middle" font-size="8" fill="#1a1a1a">paragraph</text>
+
+  <text x="260" y="190" text-anchor="middle" font-size="8" fill="#999">prioritize</text>
+  <text x="260" y="205" text-anchor="middle" font-size="8" fill="#999">↓</text>
+  <text x="260" y="220" text-anchor="middle" font-size="8" fill="#1a1a1a">one word</text>
+
+  <text x="420" y="190" text-anchor="middle" font-size="8" fill="#999">reality check</text>
+  <text x="420" y="205" text-anchor="middle" font-size="8" fill="#999">↓</text>
+  <text x="420" y="220" text-anchor="middle" font-size="8" fill="#1a1a1a">values + skills</text>
+
+  <text x="580" y="190" text-anchor="middle" font-size="8" fill="#999">compare</text>
+  <text x="580" y="205" text-anchor="middle" font-size="8" fill="#999">↓</text>
+  <text x="580" y="220" text-anchor="middle" font-size="8" fill="#1a1a1a">tension points</text>
+
+  <text x="730" y="190" text-anchor="middle" font-size="8" fill="#999">synthesize</text>
+  <text x="730" y="205" text-anchor="middle" font-size="8" fill="#999">↓</text>
+  <text x="730" y="220" text-anchor="middle" font-size="8" fill="#E85D3A">clear story</text>
+
+  <!-- Return arc -->
+  <polyline points="730,240 730,310 100,310 100,240" fill="none" stroke="#E85D3A" stroke-width="1" stroke-dasharray="6,4"/>
+  <polygon points="96,242 100,236 104,242" fill="#E85D3A"/>
+  <text x="400" y="340" text-anchor="middle" font-size="9" fill="#E85D3A" font-style="italic">repeatable, students return as their experience grows</text>
+
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 2</text>
+</svg>

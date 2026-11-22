@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">REFLECTIVE ONBOARDING : 9 QUESTIONS</text>
+  <circle cx="140" cy="100" r="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="140" y="95" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">ORIGIN</text>
+  <text x="140" y="110" text-anchor="middle" font-size="8.5" fill="#999">Q1</text>
+  <circle cx="370" cy="100" r="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="370" y="95" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">STUDY</text>
+  <text x="370" y="110" text-anchor="middle" font-size="8.5" fill="#999">Q2</text>
+  <circle cx="600" cy="100" r="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="600" y="95" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">VALUES</text>
+  <text x="600" y="110" text-anchor="middle" font-size="8.5" fill="#999">Q3</text>
+  <circle cx="140" cy="200" r="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="140" y="195" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">PATTERNS</text>
+  <text x="140" y="210" text-anchor="middle" font-size="8.5" fill="#999">Q4</text>
+  <circle cx="370" cy="200" r="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="370" y="195" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">FEARS</text>
+  <text x="370" y="210" text-anchor="middle" font-size="8.5" fill="#999">Q5</text>
+  <circle cx="600" cy="200" r="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="600" y="195" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">ENERGY</text>
+  <text x="600" y="210" text-anchor="middle" font-size="8.5" fill="#999">Q6</text>
+  <circle cx="140" cy="300" r="32" fill="#1a1a1a" />
+  <text x="140" y="295" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#ffffff">IDENTITY</text>
+  <text x="140" y="310" text-anchor="middle" font-size="8.5" fill="#aaa">Q7</text>
+  <circle cx="370" cy="300" r="32" fill="#1a1a1a" />
+  <text x="370" y="295" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#ffffff">CHANGE</text>
+  <text x="370" y="310" text-anchor="middle" font-size="8.5" fill="#aaa">Q8</text>
+  <circle cx="600" cy="300" r="32" fill="#E85D3A" />
+  <text x="600" y="295" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#ffffff">DIRECTION</text>
+  <text x="600" y="310" text-anchor="middle" font-size="8.5" fill="#aaa" opacity="0.7">Q9</text>
+  <line x1="174" y1="100" x2="336" y2="100" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="330,96 336,100 330,104" fill="#1a1a1a"/>
+  <line x1="174" y1="200" x2="336" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="330,196 336,200 330,204" fill="#1a1a1a"/>
+  <line x1="174" y1="300" x2="336" y2="300" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="330,296 336,300 330,304" fill="#1a1a1a"/>
+  <line x1="404" y1="100" x2="566" y2="100" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="560,96 566,100 560,104" fill="#1a1a1a"/>
+  <line x1="404" y1="200" x2="566" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="560,196 566,200 560,204" fill="#1a1a1a"/>
+  <line x1="404" y1="300" x2="566" y2="300" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="560,296 566,300 560,304" fill="#1a1a1a"/>
+  <polyline points="600,134 600,150 140,150 140,166" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="136,160 140,166 144,160" fill="#1a1a1a"/>
+  <polyline points="600,234 600,250 140,250 140,266" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="136,260 140,266 144,260" fill="#1a1a1a"/>
+  <text x="400" y="370" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">simple → personal → directional</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 2</text>
+</svg>

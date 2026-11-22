@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">PRACTICE MODEL COMPARISON</text>
+  <rect x="205" y="65" width="90" height="28" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="250" y="83" text-anchor="middle" font-size="8.5" font-weight="600" fill="#1a1a1a">Large Firm</text>
+  <rect x="325" y="65" width="90" height="28" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="1"/>
+  <text x="370" y="83" text-anchor="middle" font-size="8.5" font-weight="600" fill="#ffffff">Small Studio</text>
+  <rect x="445" y="65" width="90" height="28" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="490" y="83" text-anchor="middle" font-size="8.5" font-weight="600" fill="#1a1a1a">Solo Practice</text>
+  <rect x="565" y="65" width="90" height="28" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="610" y="83" text-anchor="middle" font-size="8.5" font-weight="600" fill="#1a1a1a">Non-traditional</text>
+  <text x="140" y="134" text-anchor="end" font-size="9" fill="#1a1a1a">Creative control</text>
+  <line x1="150" y1="130" x2="700" y2="130" stroke="#e0e0e0" stroke-width="0.5"/>
+  <circle cx="250" cy="130" r="6" fill="#1a1a1a" opacity="0.3"/>
+  <circle cx="370" cy="130" r="11" fill="#E85D3A" opacity="1"/>
+  <circle cx="490" cy="130" r="10" fill="#1a1a1a" opacity="0.8"/>
+  <circle cx="610" cy="130" r="7" fill="#1a1a1a" opacity="0.4"/>
+  <text x="140" y="184" text-anchor="end" font-size="9" fill="#1a1a1a">Income stability</text>
+  <line x1="150" y1="180" x2="700" y2="180" stroke="#e0e0e0" stroke-width="0.5"/>
+  <circle cx="250" cy="180" r="8" fill="#1a1a1a" opacity="0.6"/>
+  <circle cx="370" cy="180" r="9" fill="#E85D3A" opacity="1"/>
+  <circle cx="490" cy="180" r="12" fill="#1a1a1a" opacity="0.9"/>
+  <circle cx="610" cy="180" r="9" fill="#1a1a1a" opacity="0.6"/>
+  <text x="140" y="234" text-anchor="end" font-size="9" fill="#1a1a1a">Mentorship</text>
+  <line x1="150" y1="230" x2="700" y2="230" stroke="#e0e0e0" stroke-width="0.5"/>
+  <circle cx="250" cy="230" r="7" fill="#1a1a1a" opacity="0.3"/>
+  <circle cx="370" cy="230" r="10" fill="#E85D3A" opacity="1"/>
+  <circle cx="490" cy="230" r="10" fill="#1a1a1a" opacity="0.7"/>
+  <circle cx="610" cy="230" r="9" fill="#1a1a1a" opacity="0.6"/>
+  <text x="140" y="284" text-anchor="end" font-size="9" fill="#1a1a1a">Work-life</text>
+  <line x1="150" y1="280" x2="700" y2="280" stroke="#e0e0e0" stroke-width="0.5"/>
+  <circle cx="250" cy="280" r="6" fill="#1a1a1a" opacity="0.2"/>
+  <circle cx="370" cy="280" r="6" fill="#E85D3A" opacity="1"/>
+  <circle cx="490" cy="280" r="8" fill="#1a1a1a" opacity="0.5"/>
+  <circle cx="610" cy="280" r="10" fill="#1a1a1a" opacity="0.7"/>
+  <text x="140" y="334" text-anchor="end" font-size="9" fill="#1a1a1a">Growth</text>
+  <line x1="150" y1="330" x2="700" y2="330" stroke="#e0e0e0" stroke-width="0.5"/>
+  <circle cx="250" cy="330" r="8" fill="#1a1a1a" opacity="0.5"/>
+  <circle cx="370" cy="330" r="7" fill="#E85D3A" opacity="1"/>
+  <circle cx="490" cy="330" r="7" fill="#1a1a1a" opacity="0.3"/>
+  <circle cx="610" cy="330" r="11" fill="#1a1a1a" opacity="0.9"/>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 2</text>
+</svg>

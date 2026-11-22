@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">ONEWORD : 6 BINARY CHOICES</text>
+  <rect x="80" y="140" width="90" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="90" y="155" width="70" height="35" rx="2" fill="#1a1a1a"/>
+  <rect x="90" y="200" width="70" height="35" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="125" y="250" text-anchor="middle" font-size="8" fill="#999">Q1</text>
+  <line x1="172" y1="200" x2="188" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="182,196 188,200 182,204" fill="#1a1a1a"/>
+  <rect x="190" y="140" width="90" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="200" y="155" width="70" height="35" rx="2" fill="#1a1a1a"/>
+  <rect x="200" y="200" width="70" height="35" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="235" y="250" text-anchor="middle" font-size="8" fill="#999">Q2</text>
+  <line x1="282" y1="200" x2="298" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="292,196 298,200 292,204" fill="#1a1a1a"/>
+  <rect x="300" y="140" width="90" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="310" y="155" width="70" height="35" rx="2" fill="#1a1a1a"/>
+  <rect x="310" y="200" width="70" height="35" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="345" y="250" text-anchor="middle" font-size="8" fill="#999">Q3</text>
+  <line x1="392" y1="200" x2="408" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="402,196 408,200 402,204" fill="#1a1a1a"/>
+  <rect x="410" y="140" width="90" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="420" y="155" width="70" height="35" rx="2" fill="#1a1a1a"/>
+  <rect x="420" y="200" width="70" height="35" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="455" y="250" text-anchor="middle" font-size="8" fill="#999">Q4</text>
+  <line x1="502" y1="200" x2="518" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="512,196 518,200 512,204" fill="#1a1a1a"/>
+  <rect x="520" y="140" width="90" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="530" y="155" width="70" height="35" rx="2" fill="#1a1a1a"/>
+  <rect x="530" y="200" width="70" height="35" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="565" y="250" text-anchor="middle" font-size="8" fill="#999">Q5</text>
+  <line x1="612" y1="200" x2="628" y2="200" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="622,196 628,200 622,204" fill="#1a1a1a"/>
+  <rect x="630" y="140" width="90" height="120" rx="2" fill="none" stroke="#E85D3A" stroke-width="1"/>
+  <rect x="640" y="155" width="70" height="35" rx="2" fill="#1a1a1a"/>
+  <rect x="640" y="200" width="70" height="35" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="675" y="250" text-anchor="middle" font-size="8" fill="#999">Q6</text>
+  <polyline points="740,200 760,200 760,320 400,320" fill="none" stroke="#E85D3A" stroke-width="1.2"/>
+  <polygon points="402,316 396,320 402,324" fill="#E85D3A"/>
+  <circle cx="340" cy="320" r="30" fill="#E85D3A"/>
+  <text x="340" y="316" text-anchor="middle" font-size="8" font-weight="600" fill="#ffffff">YOUR</text>
+  <text x="340" y="328" text-anchor="middle" font-size="8" font-weight="600" fill="#ffffff">WORD</text>
+  <text x="400" y="370" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">under 2 minutes → one word → conversation starts</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 8</text>
+</svg>

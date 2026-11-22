@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">DISPOSITION PROFILE : 13 DIMENSIONS</text>
+  <text x="175" y="83" text-anchor="end" font-size="8.5" fill="#1a1a1a">Analytical</text>
+  <rect x="185" y="70" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="70" width="245" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="107" text-anchor="end" font-size="8.5" fill="#1a1a1a">Creative</text>
+  <rect x="185" y="94" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="94" width="298" height="18" rx="1" fill="#E85D3A" opacity="1"/>
+  <text x="175" y="131" text-anchor="end" font-size="8.5" fill="#1a1a1a">Structured</text>
+  <rect x="185" y="118" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="118" width="140" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="155" text-anchor="end" font-size="8.5" fill="#1a1a1a">Collaborative</text>
+  <rect x="185" y="142" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="142" width="228" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="179" text-anchor="end" font-size="8.5" fill="#1a1a1a">Independent</text>
+  <rect x="185" y="166" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="166" width="193" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="203" text-anchor="end" font-size="8.5" fill="#1a1a1a">People-focused</text>
+  <rect x="185" y="190" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="190" width="280" height="18" rx="1" fill="#E85D3A" opacity="1"/>
+  <text x="175" y="227" text-anchor="end" font-size="8.5" fill="#1a1a1a">Data-driven</text>
+  <rect x="185" y="214" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="214" width="158" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="251" text-anchor="end" font-size="8.5" fill="#1a1a1a">Hands-on</text>
+  <rect x="185" y="238" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="238" width="210" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="275" text-anchor="end" font-size="8.5" fill="#1a1a1a">Strategic</text>
+  <rect x="185" y="262" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="262" width="262" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="299" text-anchor="end" font-size="8.5" fill="#1a1a1a">Detail-oriented</text>
+  <rect x="185" y="286" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="286" width="122" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="323" text-anchor="end" font-size="8.5" fill="#1a1a1a">Big-picture</text>
+  <rect x="185" y="310" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="310" width="315" height="18" rx="1" fill="#E85D3A" opacity="1"/>
+  <text x="175" y="347" text-anchor="end" font-size="8.5" fill="#1a1a1a">Risk-taking</text>
+  <rect x="185" y="334" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="334" width="175" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <text x="175" y="371" text-anchor="end" font-size="8.5" fill="#1a1a1a">Stability-seeking</text>
+  <rect x="185" y="358" width="350" height="18" rx="1" fill="#e0e0e0" opacity="0.3"/>
+  <rect x="185" y="358" width="105" height="18" rx="1" fill="#1a1a1a" opacity="0.8"/>
+  <rect x="580" y="80" width="180" height="60" rx="2" fill="#E85D3A"/>
+  <text x="670" y="105" text-anchor="middle" font-size="9" font-weight="600" fill="#ffffff" letter-spacing="1">YOUR PROFILE</text>
+  <text x="670" y="125" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">Creative</text>
+  <text x="670" y="160" text-anchor="middle" font-size="8" fill="#999">dominant dimension</text>
+  <rect x="580" y="180" width="180" height="50" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="670" y="202" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a1a">460</text>
+  <text x="670" y="220" text-anchor="middle" font-size="8" fill="#999">occupations mapped</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 4</text>
+</svg>

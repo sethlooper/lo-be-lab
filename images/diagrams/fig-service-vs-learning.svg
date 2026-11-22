@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" preserveAspectRatio="xMidYMid meet" font-family="Inter, Helvetica Neue, Helvetica, Arial, sans-serif"><rect width="880" height="300" fill="#ffffff"/><text x="440" y="34" text-anchor="middle" font-size="15" font-weight="600" letter-spacing="0.3" fill="#111111">Two patterns for career development</text>
+<text x="240" y="74" text-anchor="middle" font-size="11" letter-spacing="0.8" fill="#7d7d7d">SERVICE-DELIVERY PATTERN</text>
+<g font-size="11.5" fill="#111111">
+<text x="240" y="116" text-anchor="middle">student presents a need</text>
+<text x="240" y="140" text-anchor="middle" fill="#b6b6b6">&#8595;</text>
+<text x="240" y="164" text-anchor="middle">institution delivers a service</text>
+<text x="240" y="188" text-anchor="middle" fill="#b6b6b6">&#8595;</text>
+<text x="240" y="212" text-anchor="middle">transaction completes</text>
+</g>
+<text x="240" y="252" text-anchor="middle" font-size="10" letter-spacing="0.5" fill="#7d7d7d">TIMESCALE: ONE INTERACTION</text>
+<line x1="440" y1="64" x2="440" y2="252" stroke="#dcdcdc"/>
+<text x="640" y="74" text-anchor="middle" font-size="11" letter-spacing="0.8" fill="#111111">LONGITUDINAL LEARNING ENVIRONMENT</text>
+<circle cx="640" cy="166" r="64" fill="none" stroke="#111111" stroke-width="0.8" stroke-dasharray="2 4"/>
+<text x="640" y="136" text-anchor="middle" font-size="11.5" fill="#111111">reflect</text>
+<text x="700" y="170" text-anchor="middle" font-size="11.5" fill="#111111">interpret</text>
+<text x="640" y="204" text-anchor="middle" font-size="11.5" fill="#111111">visualize</text>
+<text x="586" y="170" text-anchor="middle" font-size="11.5" fill="#111111">act</text>
+<text x="640" y="252" text-anchor="middle" font-size="10.5" fill="#7d7d7d">timescale: the academic term and beyond</text></svg>

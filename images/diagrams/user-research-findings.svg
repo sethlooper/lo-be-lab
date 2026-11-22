@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">USER RESEARCH : KEY FINDINGS</text>
+  <rect x="120" y="80" width="180" height="240" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="140" y="115" font-size="24" font-weight="700" fill="#1a1a1a" opacity="0.3">01</text>
+  <text x="140" y="150" font-size="10" font-weight="600" fill="#1a1a1a">Generic tools fail</text>
+  <text x="140" y="180" font-size="9" fill="#999">Architecture decisions</text>
+  <text x="140" y="198" font-size="9" fill="#999">are too specific for</text>
+  <text x="140" y="216" font-size="9" fill="#999">general career tools</text>
+  <rect x="340" y="80" width="180" height="240" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="1.2"/>
+  <text x="360" y="115" font-size="24" font-weight="700" fill="#ffffff" opacity="0.3">02</text>
+  <text x="360" y="150" font-size="10" font-weight="600" fill="#ffffff">Critique as method</text>
+  <text x="360" y="180" font-size="9" fill="#ccc">Students already know</text>
+  <text x="360" y="198" font-size="9" fill="#ccc">how to critique, use it</text>
+  <text x="360" y="216" font-size="9" fill="#ccc">for career reflection</text>
+  <rect x="560" y="80" width="180" height="240" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="580" y="115" font-size="24" font-weight="700" fill="#1a1a1a" opacity="0.3">03</text>
+  <text x="580" y="150" font-size="10" font-weight="600" fill="#1a1a1a">Specific vs universal</text>
+  <text x="580" y="180" font-size="9" fill="#999">Some parts transfer</text>
+  <text x="580" y="198" font-size="9" fill="#999">across fields,</text>
+  <text x="580" y="216" font-size="9" fill="#999">some don't</text>
+  <polyline points="300,200 310,200 320,200 330,200 340,200" fill="none" stroke="#1a1a1a" stroke-width="0.75"/>
+  <polyline points="520,200 530,200 540,200 550,200 560,200" fill="none" stroke="#1a1a1a" stroke-width="0.75"/>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 4</text>
+</svg>

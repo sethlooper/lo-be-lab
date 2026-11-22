@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Lo/Be Lab">
+  <!-- Two L's side by side, second rotated 180°. Tops and bottoms
+       aligned (SCL-style cap-height + baseline). Strokes match the
+       favicon so the wordmark and the browser-tab icon read as the
+       same mark at any size. -->
+  <path fill="currentColor" d="M2 4h4v12h5v4H2z"/>
+  <path fill="currentColor" d="M13 4h9v16h-4v-12h-5z"/>
+</svg>

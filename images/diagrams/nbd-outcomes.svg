@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">WORKSHOP OUTCOMES</text>
+
+  <!-- Before/After comparison -->
+  <!-- Before -->
+  <rect x="80" y="70" width="280" height="260" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="220" y="100" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#1a1a1a">BEFORE</text>
+  
+  <rect x="110" y="120" width="220" height="35" rx="2" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="220" y="142" text-anchor="middle" font-size="8" fill="#999">Messy, unfiltered paragraph</text>
+
+  <rect x="110" y="165" width="220" height="35" rx="2" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="220" y="187" text-anchor="middle" font-size="8" fill="#999">No clear center</text>
+
+  <rect x="110" y="210" width="220" height="35" rx="2" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="220" y="232" text-anchor="middle" font-size="8" fill="#999">Chronological listing</text>
+
+  <rect x="110" y="255" width="220" height="35" rx="2" fill="none" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="220" y="277" text-anchor="middle" font-size="8" fill="#999">Unclear emphasis</text>
+
+  <!-- Arrow -->
+  <polyline points="362,200 420,200 420,200 438,200" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="436,196 442,200 436,204" fill="#1a1a1a"/>
+
+  <!-- After -->
+  <rect x="450" y="70" width="280" height="260" rx="2" fill="#E85D3A"/>
+  <text x="590" y="100" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#ffffff">AFTER</text>
+
+  <rect x="480" y="120" width="220" height="35" rx="2" fill="#ffffff" opacity="0.15"/>
+  <text x="590" y="142" text-anchor="middle" font-size="8" fill="#ffffff">Clear narrative center</text>
+
+  <rect x="480" y="165" width="220" height="35" rx="2" fill="#ffffff" opacity="0.15"/>
+  <text x="590" y="187" text-anchor="middle" font-size="8" fill="#ffffff">Grounded in evidence</text>
+
+  <rect x="480" y="210" width="220" height="35" rx="2" fill="#ffffff" opacity="0.15"/>
+  <text x="590" y="232" text-anchor="middle" font-size="8" fill="#ffffff">Strategic emphasis</text>
+
+  <rect x="480" y="255" width="220" height="35" rx="2" fill="#ffffff" opacity="0.15"/>
+  <text x="590" y="277" text-anchor="middle" font-size="8" fill="#ffffff">Reusable framework</text>
+
+  <text x="400" y="360" text-anchor="middle" font-size="9" fill="#999">students leave with a method, not just a better paragraph</text>
+
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 7</text>
+</svg>

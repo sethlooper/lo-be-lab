@@ -1,0 +1,7 @@
+**/.DS_Store
+.DS_Store
+
+# Internal notes: kept locally, never published or pushed
+_planning/
+.handoff/
+.claude/

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">SORTED TILE CLUSTERS</text>
+  <circle cx="140" cy="180" r="72" fill="none" stroke="#e0e0e0" stroke-width="0.75" stroke-dasharray="3,3"/>
+  <text x="140" y="106" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">PATTERN A</text>
+  <rect x="112" y="165" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="112" y="193" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="112" y="221" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="112" y="249" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <circle cx="400" cy="180" r="80" fill="none" stroke="#E85D3A" stroke-width="0.75" stroke-dasharray="3,3"/>
+  <text x="400" y="100" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">PATTERN B</text>
+  <rect x="372" y="165" width="56" height="22" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="0.8"/>
+  <rect x="372" y="193" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="372" y="221" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="372" y="249" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="372" y="277" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <circle cx="640" cy="180" r="56" fill="none" stroke="#e0e0e0" stroke-width="0.75" stroke-dasharray="3,3"/>
+  <text x="640" y="118" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">MISFIT</text>
+  <rect x="612" y="165" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="612" y="193" width="56" height="22" rx="2" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="640" y="240" text-anchor="middle" font-size="8" fill="#E85D3A" font-style="italic">the misfit tile is often</text>
+  <text x="640" y="254" text-anchor="middle" font-size="8" fill="#E85D3A" font-style="italic">the most interesting one</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 5</text>
+</svg>

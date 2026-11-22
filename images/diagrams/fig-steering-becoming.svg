@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" preserveAspectRatio="xMidYMid meet" font-family="Inter, Helvetica Neue, Helvetica, Arial, sans-serif"><rect width="880" height="440" fill="#ffffff"/><text x="440" y="34" text-anchor="middle" font-size="15" font-weight="600" letter-spacing="0.3" fill="#111111">Steering versus becoming: a map of reflection tools</text>
+<rect x="150" y="60" width="610" height="300" fill="none" stroke="#111111" stroke-width="0.8"/>
+<line x1="455" y1="60" x2="455" y2="360" stroke="#dcdcdc"/>
+<line x1="150" y1="210" x2="760" y2="210" stroke="#dcdcdc"/>
+<rect x="455" y="210" width="305" height="150" fill="#f1f1ef"/>
+<text x="126" y="210" text-anchor="middle" font-size="10" letter-spacing="0.5" fill="#7d7d7d" transform="rotate(-90 126 210)">SINGLE SESSION  &#8594;  LONGITUDINAL</text>
+<text x="455" y="392" text-anchor="middle" font-size="10" letter-spacing="0.5" fill="#7d7d7d">STEERING (NUDGE)  &#8594;  BECOMING (BOOST)</text>
+<text x="302" y="132" text-anchor="middle" font-size="11.5" fill="#7d7d7d">habit apps, streaks,</text>
+<text x="302" y="149" text-anchor="middle" font-size="11.5" fill="#7d7d7d">sustained behavior programs</text>
+<text x="607" y="132" text-anchor="middle" font-size="11.5" fill="#7d7d7d">one-off reflective exercises,</text>
+<text x="607" y="149" text-anchor="middle" font-size="11.5" fill="#7d7d7d">coaching prompts</text>
+<text x="302" y="287" text-anchor="middle" font-size="11.5" fill="#7d7d7d">classic nudges, defaults,</text>
+<text x="302" y="304" text-anchor="middle" font-size="11.5" fill="#7d7d7d">one-shot framing</text>
+<circle cx="607" cy="278" r="5" fill="#000000"/>
+<text x="607" y="304" text-anchor="middle" font-size="13" font-weight="600" fill="#111111">Lo/Be Lab</text>
+<text x="607" y="321" text-anchor="middle" font-size="11" fill="#7d7d7d">reflection at cohort scale, across whole terms</text>
+<text x="440" y="420" text-anchor="middle" font-size="10.5" fill="#7d7d7d">The becoming-and-longitudinal quadrant is the most neglected place to apply decision science, and the home of the lab&#8217;s work.</text></svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">RESEARCH SYNTHESIS : END OF TERM</text>
+  <rect x="75" y="78" width="90" height="44" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="120" y="96" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">SESSION</text>
+  <text x="120" y="112" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">NOTES</text>
+  <rect x="75" y="178" width="90" height="44" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="120" y="196" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">STUDENT</text>
+  <text x="120" y="212" text-anchor="middle" font-size="9" font-weight="500" fill="#1a1a1a">WRITING</text>
+  <rect x="75" y="278" width="90" height="44" rx="2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="120" y="296" text-anchor="middle" font-size="9" font-weight="500" fill="#ffffff">ENGAGEMENT</text>
+  <text x="120" y="312" text-anchor="middle" font-size="9" font-weight="500" fill="#ffffff">DATA</text>
+  <polyline points="165,100 300,100 300,200" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <polyline points="165,200 300,200 300,200" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <polyline points="165,300 300,300 300,200" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <circle cx="380" cy="200" r="50" fill="#E85D3A"/>
+  <text x="380" y="195" text-anchor="middle" font-size="10" font-weight="600" fill="#ffffff">SYNTHESIS</text>
+  <text x="380" y="210" text-anchor="middle" font-size="8" fill="#ffffff" opacity="0.7">what worked?</text>
+  <rect x="580" y="102" width="80" height="36" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="620" y="125" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a1a">KEEP</text>
+  <rect x="580" y="182" width="80" height="36" rx="2" fill="#E85D3A" stroke="#E85D3A" stroke-width="1.2"/>
+  <text x="620" y="205" text-anchor="middle" font-size="9" font-weight="600" fill="#ffffff">CHANGE</text>
+  <rect x="580" y="262" width="80" height="36" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="620" y="285" text-anchor="middle" font-size="9" font-weight="600" fill="#1a1a1a">CUT</text>
+  <polyline points="430,200 500,200 500,120 580,120" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <polygon points="578,116 584,120 578,124" fill="#1a1a1a"/>
+  <polyline points="430,200 580,200" fill="none" stroke="#E85D3A" stroke-width="1.2"/>
+  <polygon points="578,196 584,200 578,204" fill="#E85D3A"/>
+  <polyline points="430,200 500,200 500,280 580,280" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <polygon points="578,276 584,280 578,284" fill="#1a1a1a"/>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 12</text>
+</svg>

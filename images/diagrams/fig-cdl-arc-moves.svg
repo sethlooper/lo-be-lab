@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="290" viewBox="0 0 880 290" preserveAspectRatio="xMidYMid meet" font-family="Inter, Helvetica Neue, Helvetica, Arial, sans-serif"><rect width="880" height="290" fill="#ffffff"/><text x="440" y="32" text-anchor="middle" font-size="15" font-weight="600" letter-spacing="0.3" fill="#111111">The six-tool deliberation arc, mapped to the four moves</text>
+<g font-size="10.5" fill="#111111">
+<text x="60" y="62" font-size="9" fill="#b6b6b6">01</text><rect x="60" y="66" width="124" height="40" fill="none" stroke="#111111" stroke-width="0.8"/><text x="122" y="84" text-anchor="middle">Identity</text><text x="122" y="98" text-anchor="middle">Mapping</text>
+<text x="192" y="62" font-size="9" fill="#b6b6b6">02</text><rect x="192" y="66" width="112" height="40" fill="none" stroke="#111111" stroke-width="0.8"/><text x="248" y="84" text-anchor="middle">Tile</text><text x="248" y="98" text-anchor="middle">Sorting</text>
+<text x="314" y="62" font-size="9" fill="#b6b6b6">03</text><rect x="314" y="66" width="124" height="40" fill="none" stroke="#111111" stroke-width="0.8"/><text x="376" y="84" text-anchor="middle">Pattern</text><text x="376" y="98" text-anchor="middle">Distillation</text>
+<text x="448" y="62" font-size="9" fill="#b6b6b6">04</text><rect x="448" y="66" width="104" height="40" fill="none" stroke="#111111" stroke-width="0.8"/><text x="500" y="90" text-anchor="middle">OneWord</text>
+<text x="562" y="62" font-size="9" fill="#b6b6b6">05</text><rect x="562" y="66" width="114" height="40" fill="none" stroke="#111111" stroke-width="0.8"/><text x="619" y="84" text-anchor="middle">Launch</text><text x="619" y="98" text-anchor="middle">Studio</text>
+<text x="686" y="62" font-size="9" fill="#b6b6b6">06</text><rect x="686" y="66" width="124" height="40" fill="#000000"/><text x="748" y="84" text-anchor="middle" fill="#fff">The</text><text x="748" y="98" text-anchor="middle" fill="#fff">Sequence</text></g>
+<line x1="60" y1="124" x2="810" y2="124" stroke="#dcdcdc"/>
+<g font-size="11" letter-spacing="0.6" fill="#7d7d7d">
+<text x="60" y="150">REFLECTION</text>
+<text x="300" y="150">INTERPRETATION</text>
+<text x="540" y="150">VISUALIZATION</text>
+<text x="715" y="150">ACTION</text></g>
+<text x="440" y="202" text-anchor="middle" font-size="10.5" fill="#7d7d7d">The value is in the handoffs: each tool takes the previous tool&#8217;s output as its input.</text><text x="440" y="224" text-anchor="middle" font-size="10.5" fill="#7d7d7d">Compression steps (Pattern Distillation, OneWord) moved from solo work to peer dyads: compression needs a witness.</text></svg>

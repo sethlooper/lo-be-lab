@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">PEER CONVERSATION : THE MECHANISM</text>
+  <circle cx="250" cy="150" r="20" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="250" y1="170" x2="250" y2="220" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="250" y="245" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">STUDENT A</text>
+  <circle cx="550" cy="150" r="20" fill="#E85D3A"/>
+  <line x1="550" y1="170" x2="550" y2="220" stroke="#E85D3A" stroke-width="1.2"/>
+  <text x="550" y="245" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">STUDENT B</text>
+  <polyline points="270,140 400,140 400,120 530,120" fill="none" stroke="#1a1a1a" stroke-width="0.75"/>
+  <polygon points="528,116 534,120 528,124" fill="#1a1a1a"/>
+  <text x="400" y="112" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">explain your choices</text>
+  <polyline points="530,165 400,165 400,185 270,185" fill="none" stroke="#E85D3A" stroke-width="0.75"/>
+  <polygon points="272,181 266,185 272,189" fill="#E85D3A"/>
+  <text x="400" y="200" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">push back, clarify</text>
+  <polyline points="400,210 400,310" fill="none" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4,3"/>
+  <polygon points="396,308 400,314 404,308" fill="#1a1a1a"/>
+  <circle cx="400" cy="340" r="22" fill="#E85D3A"/>
+  <text x="400" y="344" text-anchor="middle" font-size="8" font-weight="600" fill="#ffffff">INSIGHT</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 7</text>
+</svg>

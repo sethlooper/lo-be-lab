@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">JOURNALING PINBOARD : ENTRIES OVER TIME</text>
+  <line x1="80" y1="80" x2="720" y2="80" stroke="#1a1a1a" stroke-width="0.75"/>
+  <circle cx="120" cy="80" r="5" fill="#1a1a1a"/>
+  <text x="120" y="66" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">ENTRY 1</text>
+  <line x1="120" y1="85" x2="120" y2="110" stroke="#1a1a1a" stroke-width="0.75"/>
+  <circle cx="260" cy="80" r="5" fill="#1a1a1a"/>
+  <text x="260" y="66" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">ENTRY 2</text>
+  <line x1="260" y1="85" x2="260" y2="110" stroke="#1a1a1a" stroke-width="0.75"/>
+  <circle cx="400" cy="80" r="5" fill="#1a1a1a"/>
+  <text x="400" y="66" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">ENTRY 3</text>
+  <line x1="400" y1="85" x2="400" y2="110" stroke="#1a1a1a" stroke-width="0.75"/>
+  <circle cx="540" cy="80" r="5" fill="#1a1a1a"/>
+  <text x="540" y="66" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">ENTRY 4</text>
+  <line x1="540" y1="85" x2="540" y2="110" stroke="#1a1a1a" stroke-width="0.75"/>
+  <circle cx="680" cy="80" r="5" fill="#E85D3A"/>
+  <text x="680" y="66" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">ENTRY 5</text>
+  <line x1="680" y1="85" x2="680" y2="110" stroke="#E85D3A" stroke-width="0.75"/>
+  <rect x="70" y="110" width="100" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="90" y1="130" x2="150" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="90" y1="150" x2="150" y2="150" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="90" y1="170" x2="150" y2="170" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="90" y1="190" x2="130" y2="190" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="210" y="110" width="100" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="230" y1="130" x2="290" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="230" y1="150" x2="290" y2="150" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="230" y1="170" x2="290" y2="170" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="230" y1="190" x2="270" y2="190" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="350" y="110" width="100" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="370" y1="130" x2="430" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="370" y1="150" x2="430" y2="150" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="370" y1="170" x2="430" y2="170" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="370" y1="190" x2="410" y2="190" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="490" y="110" width="100" height="120" rx="2" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="510" y1="130" x2="570" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="510" y1="150" x2="570" y2="150" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="510" y1="170" x2="570" y2="170" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="510" y1="190" x2="550" y2="190" stroke="#e0e0e0" stroke-width="2"/>
+  <rect x="630" y="110" width="100" height="120" rx="2" fill="none" stroke="#E85D3A" stroke-width="1"/>
+  <line x1="650" y1="130" x2="710" y2="130" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="650" y1="150" x2="710" y2="150" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="650" y1="170" x2="710" y2="170" stroke="#e0e0e0" stroke-width="2"/>
+  <line x1="650" y1="190" x2="690" y2="190" stroke="#e0e0e0" stroke-width="2"/>
+  <polyline points="680,250 680,300 120,300 120,250" fill="none" stroke="#E85D3A" stroke-width="1" stroke-dasharray="6,4"/>
+  <polygon points="116,252 120,246 124,252" fill="#E85D3A"/>
+  <text x="400" y="320" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">students revisit earlier thinking</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 3</text>
+</svg>

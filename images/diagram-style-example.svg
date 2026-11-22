@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="420" fill="#f8f8f8"/>
+
+  <!-- Title -->
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">DESIGN-BASED RESEARCH CYCLE</text>
+
+  <!-- ===== NODES ===== -->
+
+  <!-- Node 1: Deploy (outline only) -->
+  <circle cx="140" cy="200" r="48" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="140" y="195" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">DEPLOY</text>
+  <text x="140" y="210" text-anchor="middle" font-size="8.5" fill="#999">term begins</text>
+
+  <!-- Node 2: Observe (outline only) -->
+  <circle cx="340" cy="100" r="48" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="340" y="95" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#1a1a1a">OBSERVE</text>
+  <text x="340" y="110" text-anchor="middle" font-size="8.5" fill="#999">real students</text>
+
+  <!-- Node 3: Collect (filled black) -->
+  <circle cx="540" cy="100" r="48" fill="#1a1a1a"/>
+  <text x="540" y="95" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#ffffff">COLLECT</text>
+  <text x="540" y="110" text-anchor="middle" font-size="8.5" fill="#aaaaaa">data + writing</text>
+
+  <!-- Node 4: Redesign (filled orange) -->
+  <circle cx="660" cy="200" r="48" fill="#E85D3A"/>
+  <text x="660" y="195" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1.2" fill="#ffffff">REDESIGN</text>
+  <text x="660" y="210" text-anchor="middle" font-size="8.5" fill="#ffffff" opacity="0.7">next version</text>
+
+  <!-- ===== 90-DEGREE ORTHOGONAL ARROWS ===== -->
+
+  <!-- Arrow 1: Deploy up then right to Observe -->
+  <polyline points="140,152  140,100  290,100" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="288,96 294,100 288,104" fill="#1a1a1a"/>
+
+  <!-- Arrow 2: Observe right to Collect -->
+  <polyline points="388,100  490,100" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="488,96 494,100 488,104" fill="#1a1a1a"/>
+
+  <!-- Arrow 3: Collect right then down to Redesign -->
+  <polyline points="588,100  660,100  660,150" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="656,148 660,154 664,148" fill="#1a1a1a"/>
+
+  <!-- Arrow 4: Redesign down, left along bottom, up to Deploy (dashed orange) -->
+  <polyline points="660,248  660,340  140,340  140,248" fill="none" stroke="#E85D3A" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <polygon points="136,250 140,244 144,250" fill="#E85D3A"/>
+
+  <!-- Label on return path -->
+  <text x="400" y="365" text-anchor="middle" font-size="9.5" fill="#E85D3A" font-style="italic">each academic term is a research cycle</text>
+
+  <!-- Figure label -->
+  <line x1="32" y1="396" x2="72" y2="396" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="410" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 1</text>
+</svg>

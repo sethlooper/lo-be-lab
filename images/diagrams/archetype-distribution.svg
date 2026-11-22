@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Inter, -apple-system, system-ui, sans-serif">
+  <rect width="800" height="400" fill="#f8f8f8"/>
+  <text x="400" y="36" text-anchor="middle" font-size="10" font-weight="500" letter-spacing="1.6" fill="#999">ARCHETYPE DISTRIBUTION : ONBOARDING DATA</text>
+  <circle cx="200" cy="210" r="75" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="200" y="202" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#1a1a1a">EXPLORER</text>
+  <text x="200" y="222" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a1a">38%</text>
+  <circle cx="420" cy="200" r="85" fill="#E85D3A"/>
+  <text x="420" y="192" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#ffffff">SEEKER</text>
+  <text x="420" y="212" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">42%</text>
+  <circle cx="620" cy="220" r="60" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="620" y="212" text-anchor="middle" font-size="10" font-weight="600" letter-spacing="1" fill="#1a1a1a">ACHIEVER</text>
+  <text x="620" y="232" text-anchor="middle" font-size="18" font-weight="700" fill="#1a1a1a">20%</text>
+  <polyline points="275,210 348,210 348,200" fill="none" stroke="#1a1a1a" stroke-width="0.75"/>
+  <polyline points="505,200 562,200 562,220" fill="none" stroke="#1a1a1a" stroke-width="0.75"/>
+  <text x="400" y="340" text-anchor="middle" font-size="8.5" fill="#999" letter-spacing="0.5">n = 98 pilot participants</text>
+  <text x="400" y="360" text-anchor="middle" font-size="8.5" fill="#E85D3A" letter-spacing="0.5">Seekers showed deepest journal engagement</text>
+  <line x1="32" y1="376" x2="72" y2="376" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="32" y="390" font-size="8" fill="#ccc" letter-spacing="0.5">FIG. 6</text>
+</svg>

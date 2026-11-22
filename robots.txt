@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_planning/
+Disallow: /publications/source/
+
+Sitemap: https://sethlooper.github.io/lo-be-lab/sitemap.xml
