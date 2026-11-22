@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can actually explore.">
+  <meta name="description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can explore.">
   <link rel="canonical" href="https://sethlooper.github.io/lo-be-lab/work/synapse.html">
   <meta property="og:title" content="Synapse · Lo/Be Lab">
-  <meta property="og:description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can actually explore.">
+  <meta property="og:description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can explore.">
   <meta property="og:url" content="https://sethlooper.github.io/lo-be-lab/work/synapse.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Lo/Be Lab">
   <meta property="og:image" content="https://sethlooper.github.io/lo-be-lab/images/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Synapse · Lo/Be Lab">
-  <meta name="twitter:description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can actually explore.">
+  <meta name="twitter:description" content="Synapse: a career exploration tool that replaces ranked lists with a map of 460 occupations you can explore.">
   <meta name="twitter:image" content="https://sethlooper.github.io/lo-be-lab/images/og-image.png">
   <link rel="icon" href="../images/favicon.svg?v=46" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../images/favicon.svg?v=46">
@@ -92,7 +92,7 @@
     <section class="section fade-up">
       <div class="case-prose">
         <div class="case-section-label">Claim and confidence</div>
-        <p>What this report argues, how far the evidence currently goes, and what would settle it. The lab states this up front so a reader can weigh the work honestly.</p>
+        <p>What this report argues, how far the evidence currently goes, and what would settle it. Synapse is live but has not been studied; the claims below are design rationale.</p>
       </div>
       <div class="case-findings" style="margin-top: var(--space-8);">
         <div class="content-row">
@@ -100,12 +100,12 @@
           <div class="row-content">Replacing a ranked list with a spatial map shifts people from asking "what is the top answer" to exploring the shape of the space.</div>
         </div>
         <div class="content-row">
-          <div class="row-label">What we have seen</div>
+          <div class="row-label">What I have seen</div>
           <div class="row-content">Two design generations so far: a ranked-list version replaced by a spatial-map version. The redesign is grounded in the productive-wandering pattern carried over from DartWorld. So far this is design rationale, not a measured effect.</div>
         </div>
         <div class="content-row">
           <div class="row-label">Confidence</div>
-          <div class="row-content">Provisional. Whether the map format actually increases exploration over the list format is one of the open empirical questions stated in the working paper, section 5.3.</div>
+          <div class="row-content">Provisional. Whether the map format increases exploration over the list format is one of the open empirical questions stated in the working paper, section 5.3.</div>
         </div>
         <div class="content-row">
           <div class="row-label">What would test it</div>
@@ -119,7 +119,7 @@
       <div class="case-prose">
         <div class="case-section-label">The Problem</div>
 
-        <p>Career assessments give you a ranked list. You answer questions, the system spits out occupations sorted by fit score, and you look at the top five. Two problems with that. First, it treats every career as separate. A student interested in urban planning might also connect with public health or environmental policy, but a list doesn't show you those connections. Second, nobody looks past the first few results. The format itself kills exploration.</p>
+        <p>Career assessments give you a ranked list. You answer questions, the system spits out occupations sorted by fit score, and you look at the top five. Two problems with that. First, it treats every career as separate. A student interested in urban planning might also connect with public health or environmental policy, but a list doesn't show you those connections. Second, nobody looks past the first few results. The format discourages exploration.</p>
       </div>
     </section>
 
@@ -131,9 +131,9 @@
     <!-- WHAT WE BUILT -->
     <section class="section fade-up">
       <div class="case-prose">
-        <div class="case-section-label">What We Built</div>
+        <div class="case-section-label">The Tool</div>
 
-        <p>Synapse asks 13 either/or questions about how you think, what energizes you, and what kind of impact you want. Instead of returning a ranked list, it maps your answers against 460 real occupations (from BLS and O*NET data) on a visual map. Careers that share characteristics sit near each other. You can wander through clusters of related jobs and find connections you never would have found by searching or scrolling.</p>
+        <p>Synapse asks 13 either/or questions about how you think, what energizes you, and what kind of impact you want. Instead of returning a ranked list, it maps your answers against 460 occupations (from BLS and O*NET data) on a visual map. Careers that share characteristics sit near each other. You can wander through clusters of related jobs and find connections that searching or scrolling would likely miss.</p>
       </div>
 
       <div class="three-col" style="margin-top: var(--space-10);">
@@ -143,7 +143,7 @@
         </div>
         <div>
           <div class="col-label">spatial map</div>
-          <div class="col-text" style="font-size: var(--text-base); line-height: var(--lh-loose);">Occupations arranged on a map where nearby careers share similar characteristics. You explore by moving through clusters, not by scrolling a list.</div>
+          <div class="col-text" style="font-size: var(--text-base); line-height: var(--lh-loose);">Occupations arranged on a map where nearby careers share similar characteristics. You explore by moving through clusters.</div>
         </div>
         <div>
           <div class="col-label">connections between careers</div>
@@ -161,9 +161,9 @@
 
         <p>The 13 questions map to <strong>Holland's RIASEC dimensions</strong> (Holland, 1959; Holland, 1997), the six interest types that organize O*NET's Interest Profiler and the bulk of vocational-assessment infrastructure in U.S. counselor education. The forced-choice format (either/or, not Likert) follows the same tradition's emphasis on producing clear signal at low cost rather than nuanced self-description.</p>
 
-        <p>The 460 careers are drawn from the <strong>BLS Standard Occupational Classification (SOC)</strong> and <strong>O*NET 26.0</strong>, federal data, not editorial selection. This matters: the corpus isn't shaped by what the lab finds interesting; it's the same taxonomy a school counselor or labor economist would work from.</p>
+        <p>The 460 careers are drawn from the <strong>BLS Standard Occupational Classification (SOC)</strong> and <strong>O*NET 26.0</strong>, federal data rather than an editorial selection, so the corpus is the same taxonomy a school counselor or labor economist would work from.</p>
 
-        <p>Two non-default moves come from outside the assessment tradition. First, the results page replaces the ranked list with a spatial map. The wayfinding framing comes from <strong>Burnett &amp; Evans's Designing Your Life</strong> (2016): careers as a landscape to walk through rather than a leaderboard to optimize. (The lab's <a href="../notes/maps-over-lists.html">Maps over lists</a> field note has more on why this pattern keeps showing up across our projects.) Second, the prompts are mood- and values-laden rather than skills- or experience-based. That choice draws on <strong>Mark Savickas's Career Construction Theory</strong> (Savickas, 2005), which treats career-related decisions as identity construction not slot-filling, and on the <strong>Knowdell Career Values</strong> card-sort tradition that recurs across Lo/Be Lab's other tools (see <a href="narrative-by-design.html">Narrative by Design</a>).</p>
+        <p>Two non-default moves come from outside the assessment tradition. First, the results page replaces the ranked list with a spatial map. The wayfinding framing comes from <strong>Burnett &amp; Evans's Designing Your Life</strong> (2016): careers as a landscape to walk through rather than a leaderboard to optimize. (My <a href="../notes/maps-over-lists.html">Maps over lists</a> field note has more on why this pattern keeps showing up across my projects.) Second, the prompts are mood- and values-laden rather than skills- or experience-based. That choice draws on <strong>Mark Savickas's Career Construction Theory</strong> (Savickas, 2005), which treats career-related decisions as identity construction rather than slot-filling, and on the <strong>Knowdell Career Values</strong> card-sort tradition that recurs across Lo/Be Lab's other tools (see <a href="narrative-by-design.html">Narrative by Design</a>).</p>
 
         <p>The full set of cited works is in the <a href="../publications/index.html#paper-synapse">working paper</a>.</p>
       </div>
@@ -174,7 +174,7 @@
       <div class="case-prose">
         <div class="case-section-label">Open Research Lines</div>
 
-        <p>Synapse is a working product looking for a defensible evidence base. Seven research lines are planned; none has been conducted. Each is framed as: what we want to learn, and what would change on the site if we learn it.</p>
+        <p>Synapse is a working product looking for a defensible evidence base. Seven research lines are planned; none has been conducted. Each is framed as what I want to learn and what would change on the site if I learn it.</p>
       </div>
 
       <div class="case-findings" style="margin-top: var(--space-8);">
@@ -204,7 +204,7 @@
         </div>
         <div class="content-row">
           <div class="row-label">07 · ASCA &amp; NACE standards coverage</div>
-          <div class="row-content">The counselor-facing PDF export shows which standards a complete Synapse session evidences. Invisible to students, decisive for school adoption.</div>
+          <div class="row-content">The counselor-facing PDF export shows which standards a complete Synapse session evidences. Students don't see it; schools weighing adoption would.</div>
         </div>
       </div>
 
@@ -229,7 +229,7 @@
       <div class="case-prose">
         <div class="case-section-label">The Process</div>
 
-        <p>The first version was a traditional quiz with a ranked list of results. The redesign moved the output to a spatial map because the wayfinding metaphor predicts a different mode of engagement: exploration rather than selection. The question count was reduced from 20 to 13 across design iterations, keeping the set that produced the most distinct profiles in design-team review. All career data comes from BLS Occupational Employment and Wage Statistics and O*NET.</p>
+        <p>The first version was a traditional quiz with a ranked list of results. The redesign moved the output to a spatial map because the wayfinding metaphor predicts a different mode of engagement: exploration rather than selection. The question count was reduced from 20 to 13 across design iterations, keeping the set that produced the most distinct profiles in my design review. All career data comes from BLS Occupational Employment and Wage Statistics and O*NET.</p>
       </div>
     </section>
 
@@ -238,18 +238,18 @@
       <div class="case-prose">
         <div class="case-section-label">Design Rationale</div>
 
-        <p>Three design-rationale claims the spatial-map move rests on. Each is a hypothesis the working paper documents in §5.3 and that the empirical-study stage is set up to test under a future consent infrastructure.</p>
+        <p>Three design-rationale claims the spatial-map move rests on. Each is a hypothesis documented in §5.3 of the working paper; none has been tested.</p>
       </div>
 
       <div class="case-findings" style="margin-top: var(--space-8);">
         <div class="content-row">
           <div class="row-label">Maps should produce more exploration than ranked lists</div>
-          <div class="row-content">The design hypothesis is that a spatial output supports the "productive wandering" mode of engagement the lab also designs for in DartWorld, while a ranked-list output supports the "find the right answer" mode. Whether the map format actually produces measurably more exploration than the list format is one of the open empirical questions in the Synapse working paper.</div>
+          <div class="row-content">The design hypothesis is that a spatial output supports the "productive wandering" mode of engagement that DartWorld was also designed for, while a ranked-list output supports the "find the right answer" mode. Whether the map format produces measurably more exploration than the list format is one of the open empirical questions in the Synapse working paper.</div>
         </div>
 
         <div class="content-row">
           <div class="row-label">13 questions is the working choice</div>
-          <div class="row-content">Fewer questions produced profiles that felt too broad in design-team review; more felt random. Thirteen is the working choice the lab settled on across iterations: specific enough to differentiate, fast enough to finish in under five minutes. Whether 13 is in fact the optimal question count is an empirical question the lab has not formally tested.</div>
+          <div class="row-content">Fewer questions produced profiles that felt too broad in design review; more felt random. Thirteen is the working choice I settled on across iterations: specific enough to differentiate, fast enough to finish in under five minutes. Whether 13 is in fact the optimal question count is an empirical question I have not formally tested.</div>
         </div>
 
         <div class="content-row">

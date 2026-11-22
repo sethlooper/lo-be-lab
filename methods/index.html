@@ -73,7 +73,7 @@
             </div>
             <div class="method-body">
               <p><strong>What it is.</strong> A staged compression exercise. Start with an unfiltered paragraph answering "tell me about yourself." Cut it to one sentence. Cut the sentence to one word. Each cut forces a choice: what you keep is the signal.</p>
-              <p><strong>Why it works.</strong> Compression-via-deletion is cognitively cheaper than synthesis-from-scratch. Starting with too much and carving away is easier than starting from a blank page, and the carving is where the thinking happens.</p>
+              <p><strong>Why it should work.</strong> The design assumes compression-via-deletion is cognitively cheaper than synthesis-from-scratch. Starting with too much and carving away is easier than starting from a blank page, and the carving is where the thinking happens.</p>
               <p><strong>Run it in pairs.</strong> In facilitation I have noticed that solo compression tends to produce vague abstractions ("Leader", "Driven"), while compression in dyads, where you have to explain each cut to a partner, tends to produce more specific, personal language ("Translator", "Connector", "Witness"). This has not been studied. See field note.</p>
               <p><strong>Failure modes.</strong> (1) Students cheating toward job titles ("Engineer", "Consultant"). Block these up front. (2) Single-word results that are <em>too abstract</em> ("Leadership"), push for the next cut. (3) Insisting on the word as a permanent identity rather than a working hypothesis.</p>
               <div class="method-refs">Theoretical roots: McAdams · Mezirow · narrative identity theory</div>
@@ -94,7 +94,7 @@
               <span>~30 min</span>
             </div>
             <div class="method-body">
-              <p><strong>What it is.</strong> Three card-sort exercises run in sequence, values, strengths, skills, each with a forced top-N. Adapted from established card sorts: the <em>Knowdell Career Values</em> sort, a strengths card sort informed by <em>CliftonStrengths</em> themes (not Gallup's assessment), and the <em>Knowdell Motivated Skills</em> sort. The cards are physical, not digital.</p>
+              <p><strong>What it is.</strong> Three card-sort exercises run in sequence, values, strengths, skills, each with a forced top-N. Adapted from established card sorts: the <em>Knowdell Career Values</em> sort, a strengths card sort informed by <em>CliftonStrengths</em> themes (not Gallup's assessment), and the <em>Knowdell Motivated Skills</em> sort. The cards are physical.</p>
               <p><strong>Why three.</strong> Any single instrument produces a flattering self-portrait. Three instruments triangulate, and the disagreements between them are more useful than the agreements. A student who picks "Creativity" as a top value but doesn't have it in their top skills is in the productive territory.</p>
               <p><strong>Why physical.</strong> Handling, sorting, and repositioning cards changes the quality of attention. Drag-and-drop on a screen is faster, but slower thinking is the point.</p>
               <p><strong>Failure modes.</strong> (1) Free-sort with no forced top-N (students pick "everything matters"). Always force a top 5 → top 2. (2) Reading the cards as a personality test instead of a discussion prompt.</p>
@@ -116,10 +116,10 @@
             </div>
             <div class="method-body">
               <p><strong>What it is.</strong> An LLM layer that compares what a student says about themselves (their compressed paragraph, their card-sort choices) against external evidence (their resume, prior writing). It surfaces the gap. It does not resolve it.</p>
-              <p><strong>The key framing.</strong> The model is not a judge; it's a witness. A student who picks "Creator" but has a resume full of operations work doesn't get told they're wrong. They get told <em>"your card sorts suggest Creator; your resume suggests Organizer; what's that gap about?"</em> That question is where reflection happens.</p>
+              <p><strong>The key framing.</strong> The model acts as a witness. A student who picks "Creator" but has a resume full of operations work doesn't get told they're wrong. They get told <em>"your card sorts suggest Creator; your resume suggests Organizer; what's that gap about?"</em></p>
               <p><strong>Output style matters.</strong> Confident, declarative outputs ("You are a…") shut down reflection. Tentative, evidence-cited outputs ("Your resume foregrounds X; you self-identified as Y; the difference might be…") open it.</p>
               <p><strong>Failure modes.</strong> (1) Model agreement = no friction = no reflection. Tune for productive disagreement. (2) Students treating the AI as authoritative rather than provisional. Surface the model's limits explicitly in facilitation.</p>
-              <p><strong>Design rubric.</strong> A five-part check for any AI surface the lab builds, adapted from MIT Media Lab's <em>Future You</em>, which is built so the model serves as a mirror rather than a counselor: (1) <strong>own material</strong>, the model works from the person's own words and artifacts, not outside answers; (2) <strong>named construct</strong>, the reflection is tied to a defined idea such as narrative identity or self-continuity; (3) <strong>evidence</strong>, claims about what the tool does are paired with what was observed, at the confidence it has earned; (4) <strong>autonomy caveat in the artifact</strong>, the interface reminds the person that what they see is one reading, not a verdict; (5) <strong>named risks</strong>, the known dangers, false confidence, dependence, the slide to advisor, are stated, not hidden.</p>
+              <p><strong>Design rubric.</strong> A five-part check for any AI surface I build, adapted from MIT Media Lab's <em>Future You</em>, which is built so the model serves as a mirror rather than a counselor: (1) <strong>own material</strong>, the model works from the person's own words and artifacts; (2) <strong>named construct</strong>, the reflection is tied to a defined idea such as narrative identity or self-continuity; (3) <strong>evidence</strong>, claims about what the tool does are paired with what was observed, at the confidence it has earned; (4) <strong>autonomy caveat in the artifact</strong>, the interface reminds the person that what they see is one reading; (5) <strong>named risks</strong>, the known dangers (false confidence, dependence, the slide to advisor) are stated in the interface.</p>
               <div class="method-refs">Related: RQ 4 · Norman on external cognitive supports · evaluation literature on AI explanations</div>
             </div>
           </div>
@@ -138,7 +138,7 @@
             </div>
             <div class="method-body">
               <p><strong>What it is.</strong> Present results (occupations, possibilities, options) as a spatial layout where similar items sit near each other, instead of a ranked list sorted by fit score.</p>
-              <p><strong>Why it works.</strong> Ranked lists ask "which is best?" and students stop at the top five. Spatial maps ask "what's near what?" and students start moving. The behavior we want is exploration, and the format shapes the behavior. This is design rationale; it has not been measured.</p>
+              <p><strong>Why it works.</strong> Ranked lists ask "which is best?" and students stop at the top five. Spatial maps ask "what's near what?" and students start moving. The behavior I want is exploration, and the format shapes the behavior. This is design rationale; it has not been measured.</p>
               <p><strong>What "similar" means.</strong> In Synapse: a 13-question profile of working preference, with adjacency computed by distance in that profile space. In DartWorld: clustered by occupational family and shared career narratives. The specific similarity metric is less important than that <em>nearness is meaningful</em>.</p>
               <p><strong>Failure modes.</strong> (1) A map that looks like a map but functions like a list (top match highlighted, others greyed out). (2) Too many dimensions, the map becomes random. Aim for 8–15 meaningful axes. (3) Ignoring the adjacency information in the UI, make it the primary signal, not a side panel.</p>
               <div class="method-refs">Related: RQ 2 · Card/Mackinlay/Shneiderman on information visualization · "productive wandering" as design objective</div>
@@ -158,9 +158,9 @@
               <span>Documented in <a href="../publications/index.html#paper-dartworld" class="inline-link">DartWorld working paper</a></span>
             </div>
             <div class="method-body">
-              <p><strong>What it is.</strong> A short reflective onboarding (~9 questions) organized around a small number of named archetypes (originally Explorer / Seeker / Achiever in DartWorld). The archetypes are emergent design categories, drawn by the design team from identity-status theory and facilitation, and offered as provisional starting frames. They are not boxes students are sorted into, not personality verdicts, and not derived from analysis of student data.</p>
+              <p><strong>What it is.</strong> A short reflective onboarding (~9 questions) organized around a small number of named archetypes (originally Explorer / Seeker / Achiever in DartWorld). The archetypes are emergent design categories that I drew from identity-status theory and facilitation, offered as provisional starting frames. They are not personality verdicts, and they were not derived from analysis of student data.</p>
               <p><strong>Why few.</strong> In design review, five labels read as ambiguous ("I'm sort of two of those"). Three kept the categories distinct. This is a design judgment, not a measured result.</p>
-              <p><strong>Why archetypes break.</strong> The Achiever label, in our case, drew pushback in facilitation from students who heard it as a judgment. Field note. Lesson: archetypes carry connotations the designer can't fully control. Replace them with elicitation prompts when the label becomes the friction.</p>
+              <p><strong>Why archetypes break.</strong> The Achiever label, in DartWorld, drew pushback in facilitation from students who heard it as a judgment. Field note. Lesson: archetypes carry connotations the designer can't fully control. Replace them with elicitation prompts when the label becomes the friction.</p>
               <p><strong>Failure modes.</strong> (1) Treating an archetype as a result assigned to a student rather than a starting frame. (2) Labels that match cultural stereotypes too closely (the "Achiever" problem). (3) Too many archetypes (≥5), which blur the categories.</p>
               <div class="method-refs">Related: Markus &amp; Nurius on possible selves · Marcia on identity statuses · risks documented in field note</div>
             </div>
@@ -196,12 +196,12 @@
             <div class="method-meta">
               <span>Dyads or triads</span>
               <span>Structured prompts</span>
-              <span>Used across the lab (<a href="../work/career-design-lab.html" class="inline-link">CDL</a>, <a href="../work/narrative-by-design.html" class="inline-link">NBD</a>, <a href="../work/threshold.html" class="inline-link">Threshold</a>)</span>
+              <span>Used across projects (<a href="../work/career-design-lab.html" class="inline-link">CDL</a>, <a href="../work/narrative-by-design.html" class="inline-link">NBD</a>, <a href="../work/threshold.html" class="inline-link">Threshold</a>)</span>
               <span>Documented in <a href="../publications/index.html#paper-cdl" class="inline-link">CDL working paper</a></span>
             </div>
             <div class="method-body">
               <p><strong>What it is.</strong> Structured peer conversation, usually dyads, occasionally triads, as the engine that turns a private reflection exercise into a productive one. The conversation isn't a debrief; it's where the work happens.</p>
-              <p><strong>Why.</strong> Saying something out loud to another human forces clarity that internal monologue never demands. The student is not just reporting, they're constructing the thought in real time, in response to a face.</p>
+              <p><strong>Why.</strong> Saying something out loud to another human forces clarity that internal monologue never demands. The student is constructing the thought in real time, in response to another person.</p>
               <p><strong>Pairs &gt; groups.</strong> Groups of 4+ produce one-speaker-at-a-time dynamics that suppress the people who most need to talk. Dyads force participation. Triads add a witness, useful for some prompts, distracting for others.</p>
               <p><strong>Failure modes.</strong> (1) "Share with your partner" with no constraint, produces small talk. Give explicit prompts and time limits. (2) Group sizes ≥ 4. (3) Letting facilitators substitute for the peer, kills the mechanism.</p>
               <div class="method-refs">Related: RQ 3 · Vygotsky on social construction · everyday clinical psychology on therapeutic alliance</div>
@@ -243,8 +243,8 @@
             </div>
             <div class="method-body">
               <p><strong>What it is.</strong> Forced either/or choices instead of Likert scales or sliders. "Which energizes you more: manifesting or deciphering?" "Are you more driven by money or meaning?"</p>
-              <p><strong>Why binaries.</strong> Likert scales produce middle clustering, most respondents pick 3 or 4 out of 5. That's not modesty; it's noise. Binaries force the respondent to commit, and the friction of committing is where the self-knowledge happens.</p>
-              <p><strong>Why "wrong" prompts are productive.</strong> A binary that almost-but-not-quite fits produces better reflection than one that fits perfectly. The student thinks <em>"that's not exactly me, I'm more…"</em> and is now articulating their actual position.</p>
+              <p><strong>Why binaries.</strong> Likert scales produce middle clustering, most respondents pick 3 or 4 out of 5. Binaries force the respondent to commit, and the design assumes that the friction of committing prompts self-knowledge.</p>
+              <p><strong>Why "wrong" prompts are productive.</strong> In facilitation, a binary that almost-but-not-quite fits seems to prompt more reflection than one that fits perfectly. The student thinks <em>"that's not exactly me, I'm more…"</em> and is now articulating their actual position.</p>
               <p><strong>Failure modes.</strong> (1) False dichotomies that respondents resent ("Are you more left-brained or right-brained?"). Pick binaries that feel like real choices. (2) Too many in a row, fatigue sets in around 15–20. Cap the instrument.</p>
               <div class="method-refs">Related: Synapse · OneWord · Q-sort literature</div>
             </div>

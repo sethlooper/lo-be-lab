@@ -148,7 +148,7 @@ ranked list. The student answers questions about interests, values, and
 aptitudes; the system computes match scores against a set of
 occupations; the results are presented as an ordered list, top match
 first. This format is so common that it has become invisible. It also
-fails, and the failure is structural rather than incidental.</p>
+fails, for structural reasons.</p>
 <figure class="paper-figure">
 <img src="../../images/diagrams/fig-ranked-vs-map.svg" alt="The ranked-list problem and the spatial-map response. A ranked list concentrates attention at the top and buries the long tail; a spatial map makes adjacency meaningful and invites exploration.">
 <figcaption><span class="fig-num">Figure 1.</span> The ranked-list problem and the spatial-map response. A ranked list concentrates attention at the top and buries the long tail; a spatial map makes adjacency meaningful and invites exploration.</figcaption>
@@ -196,11 +196,6 @@ the design move it makes is theoretically motivated, that it reframes
 rather than mitigates the two pathologies named above (by removing the
 ordinal presentation that produces them), and that it opens a research
 agenda that the ranked-list paradigm forecloses.</p>
-<p>This is a design-rationale paper, not an empirical study. The
-contribution is the articulation of the design moves the prototype
-embodies, the literatures they ladder up to, and the empirical agenda
-they invite. I do not present effectiveness data here; that work is the
-research agenda the paper concludes with.</p>
 <p>The paper proceeds as follows. Section 2 develops the theoretical
 background across four literatures: vocational psychology and the
 assessment tradition, choice overload, position bias, and spatial
@@ -210,7 +205,7 @@ prototype in detail. Section 5 discusses what the design move implies,
 what it does not, and what empirical work remains, and Section 5.4
 situates Synapse within the broader research program at Lo/Be Lab, of
 which it is one prototype. Section 6 concludes.</p>
-<p>This paper makes three contributions. <strong>First</strong>, it names and analyzes <em>the ranked-list problem</em>: the claim that the ranked output format of conventional career assessment imposes specific cognitive costs, position bias and choice overload, that work against the exploratory goal the assessment is meant to serve. <strong>Second</strong>, it offers a design rationale for a spatial-map alternative, grounding each design choice in the decision-making, information-visualization, and vocational-psychology literatures. <strong>Third</strong>, it specifies a falsifiable empirical agenda, stating the controlled comparison that would confirm or disconfirm the design hypothesis. The contribution is a design rationale and a deployable artifact; this paper does not report a controlled evaluation, and Section 5 is explicit about what therefore remains untested.</p>
+<p>This paper makes three contributions. <strong>First</strong>, it names and analyzes <em>the ranked-list problem</em>: the claim that the ranked output format of conventional career assessment imposes specific cognitive costs, position bias and choice overload, that work against the exploratory goal the assessment is meant to serve. <strong>Second</strong>, it offers a design rationale for a spatial-map alternative, grounding each design choice in the decision-making, information-visualization, and vocational-psychology literatures. <strong>Third</strong>, it specifies a falsifiable empirical agenda, stating the controlled comparison that would confirm or disconfirm the design hypothesis. I report no effectiveness data, and Section 5 states what therefore remains untested.</p>
 
 <h2 id="theoretical-background">2. Theoretical Background</h2>
 <h3 id="vocational-psychology-and-the-ranked-list-inheritance">2.1
@@ -229,20 +224,19 @@ programs and public career services.</p>
 <p>Holland’s framework lends itself naturally to ranked output. Once
 interests are reduced to a vector across six dimensions, and occupations
 are similarly profiled, the obvious move is to compute distance metrics
-and order the results. The ranked list is not a design choice; it is the
+and order the results. The ranked list is less a design choice than the
 implicit data structure of the model. Generations of career-assessment
 software have inherited it without remark.</p>
 <p>This inheritance has been challenged from within vocational
 psychology itself. Mark Savickas’s career construction theory (Savickas,
 2002, 2013) reframes career not as a slot to be filled by a well-matched
 candidate but as a narrative the individual constructs and revises over
-time. From this perspective, the output of an assessment is not properly
-a “match” at all; it is material the individual reworks into a story
-about who they are and what they want. Lent, Brown, and Hackett’s social
-cognitive career theory (Lent, Brown, &amp; Hackett, 1994) makes a
-related move from a different direction: interests are not pre-existing
-traits to be measured but emergent properties of self-efficacy beliefs,
-outcome expectations, and contextual supports. In neither framework does
+time. From this perspective, the output of an assessment is material
+the individual reworks into a story about who they are and what they
+want. Lent, Brown, and Hackett’s social cognitive career theory (Lent,
+Brown, &amp; Hackett, 1994) makes a related move from a different
+direction: interests emerge from self-efficacy beliefs, outcome
+expectations, and contextual supports. In neither framework does
 the ranked match function as the primary output; in both, the output is
 more properly understood as scaffolding for ongoing developmental
 work.</p>
@@ -261,22 +255,21 @@ drafts to iterate on, not conclusions to accept.</p>
 <p>The picture that emerges from a substantial branch of contemporary
 vocational psychology is a conceptual mismatch between the dominant
 <em>output format</em> (ranked match) and the constructivist account of
-vocational identity. John Krumboltz’s planned happenstance learning
-theory (Mitchell, Levin, &amp; Krumboltz, 1999) extends this critique
-further, arguing that the matching paradigm itself misframes career
-choice by treating preferences as pre-existing and outcomes as
-predictable; Krumboltz’s alternative cultivates curiosity, persistence,
-flexibility, optimism, and risk-taking in the face of chance events. The
-Krumboltz frame is the more direct theoretical antecedent for an
-exploration-oriented tool like Synapse. The ranked list is a vestige of
+vocational identity. Planned happenstance learning theory (Mitchell,
+Levin, &amp; Krumboltz, 1999) pushes the critique further. In
+Krumboltz’s account the matching paradigm misframes career choice by
+assuming that preferences are fixed and outcomes predictable, and the
+counselor’s task becomes helping clients notice and use chance events.
+For an exploration-oriented tool like Synapse, this is the more direct
+theoretical antecedent. The ranked list is a vestige of
 an earlier psychometric epistemology that the field has largely moved
 past. Yet the field’s most widely used tools continue to operationalize
 that older epistemology because the data structures and interface
 conventions have not been redesigned to follow the theory. McAdams
 (1993) provides a useful framing: identity work is the construction and
 continuous editing of a personal story. A list of matches is a poor
-input to that work; a landscape one can wander through, return to, and
-revise is a better one.</p>
+input to that work; a landscape one can return to and revise is a
+better one.</p>
 <h3 id="choice-overload-in-decision-interfaces">2.2 Choice Overload in
 Decision Interfaces</h3>
 <p>The empirical literature on choice overload begins, in its modern
@@ -285,8 +278,7 @@ display of 24 flavors of jam attracted more browsers but produced
 markedly fewer purchases than a display of six. The effect replicated
 reliably within the original paper and has been extensively studied
 since. Schwartz (2004) popularized the broader thesis in <em>The Paradox
-of Choice</em> and introduced the maximizer/satisficer distinction that
-has framed much subsequent work.</p>
+of Choice</em> and brought wide attention to the maximizer/satisficer distinction, which builds on Simon’s concept of satisficing.</p>
 <p>Field validation of the choice-overload effect arrived through
 Sethi-Iyengar, Huberman, and Jiang (2004), who analyzed 401(k)
 participation across roughly 800,000 employees and found that
@@ -334,29 +326,25 @@ attention.</p>
 this finding under the suggestive title <em>In Google We Trust</em>.
 When users were presented with deliberately-degraded ranked results,
 they continued to trust the order: clicks tracked rank rather than
-abstract relevance. The effect names something deeper than a UI quirk.
-The ranked list is read as a claim about authority, even when the user
+abstract relevance. The ranked list is read as a claim about authority, even when the user
 knows the ranking algorithm is unreliable.</p>
 <p>Applied to career assessment, this finding is uncomfortable. A ranked
 list of 460 occupations, with “school counselor” at the top, is read by
 the student as the assessment’s <em>answer</em>, even when the score
 difference between “school counselor” and the seventh-ranked option is
-statistically negligible. The very format teaches a kind of false
-certainty. Students who explicitly know that the algorithm is imperfect
-will, on the Pan et al. evidence, still defer to the order. The format
-teaches the deference; the algorithm warning does not undo it.</p>
+statistically negligible. The format itself teaches false certainty.
+Students who explicitly know that the algorithm is imperfect will, on the
+Pan et al. evidence, still defer to the order.</p>
 <p>The interaction of choice overload and position bias produces the
 worst combination for an exploratory tool. Choice overload makes the
 long tail invisible; position bias makes the head authoritative.
 Together they collapse the 460-occupation space into a brittle
-pseudo-decision in which the student leaves with a verdict they should
-not have received and a field they did not see.</p>
+pseudo-decision.</p>
 <h3 id="spatial-encoding-as-an-alternative">2.4 Spatial Encoding as an
 Alternative</h3>
 <p>The information-visualization literature provides an alternative
-output paradigm. Tversky (1993) developed the concept of cognitive maps,
-cognitive collages, and spatial mental models to argue that spatial
-layouts are not merely visual conveniences but cognitive tools: distance
+output paradigm. Tversky (1993) distinguished cognitive maps from cognitive collages and spatial mental models, arguing that spatial
+layouts work as cognitive tools: distance
 and proximity in a layout carry semantic information that the mind
 processes automatically and that lists cannot encode. When two careers
 sit near each other on a layout, the user reads them as similar without
@@ -365,9 +353,9 @@ contrast, encodes only ordinal position; the relations between any two
 non-adjacent items are not visible.</p>
 <p>The early canonical text on the field, Card, Mackinlay, and
 Shneiderman’s (1999) <em>Readings in Information Visualization</em>,
-frames the central premise as “using vision to think.” Visualization is
-not decoration on top of cognition; it is cognitive amplification,
-offloading inference to the perceptual system. Shneiderman’s (1996)
+frames the central premise as “using vision to think.” On this view,
+visualization amplifies cognition by offloading inference to the
+perceptual system. Shneiderman’s (1996)
 “eyes have it” mantra (“overview first, zoom and filter, then details on
 demand”) provides the interaction model: a successful
 information-seeking interface starts with an overview, lets the user
@@ -385,9 +373,8 @@ primarily <em>select</em> (pick the top match) and weakly
 <em>explore</em> (wander through the layout), <em>connect</em> (see
 relations among multiple items at once), <em>abstract/elaborate</em>
 (zoom out to see structure, zoom in to see detail), and
-<em>reconfigure</em> (change the layout’s projection). The interactions
-a spatial map enables are precisely the interactions a
-career-exploration task requires.</p>
+<em>reconfigure</em> (change the layout’s projection). These are the
+interactions a career-exploration task requires.</p>
 <p>The deeper case for spatial layouts in the career-exploration context
 rests on what Donald Schön (1983) named <em>reflection-in-action</em>:
 the practitioner adjusts their understanding of a situation as they
@@ -396,10 +383,9 @@ spatial layout supports this mode. The user reads adjacency,
 hypothesizes a relation, moves their attention to test it, and adjusts
 the reading. The layout becomes the surface on which
 reflection-in-action operates. A ranked list, by contrast, presents the
-answer as already-resolved: there is no surface for adjustment, no
-relation to test, no engagement to support. The choice between the two
-output formats is therefore not only an information-display choice but a
-choice about which kind of cognition the tool invites the user into.
+answer as already resolved, leaving no surface for adjustment. The
+choice between the two output formats is therefore also a choice about
+which kind of cognition the tool invites.
 Synapse’s design commitment is that career exploration requires the
 reflective mode, and the spatial layout is the format that affords
 it.</p>
@@ -425,7 +411,7 @@ practitioners; theory that is humble in scope but rich in application;
 and methods that document the design rationale alongside the
 artifact.</p>
 <p>The methodology is appropriate to Synapse for two reasons. First, the
-contribution is genuinely dual: the prototype is intended to be useful
+contribution is dual: the prototype is intended to be useful
 to students who encounter it, and the theoretical claim is that the
 ranked-list-to-spatial-map move is responsive to identified failures in
 the existing literature. Second, the development of the prototype has
@@ -438,10 +424,9 @@ their decadal review of the methodology, note that this iterative
 grounding is what distinguishes design-based research from the design of
 educational software that is then evaluated against established methods.
 The artifact and the theory co-develop.</p>
-<p>The reader will note what this paper is not. It is not a randomized
-controlled trial. It is not a quasi-experimental comparison of Synapse
-against an existing career-assessment instrument. It is not a
-longitudinal study of outcome differences across cohorts. The current
+<p>This paper is not a randomized controlled trial, a quasi-experimental
+comparison of Synapse against an existing career-assessment instrument,
+or a longitudinal study of outcome differences across cohorts. The current
 paper develops the design rationale and describes the artifact in
 sufficient detail that the rationale can be challenged on theoretical
 grounds. The empirical follow-on work, described in Section 5, will
@@ -492,7 +477,7 @@ reduces the social-desirability and middle-anchoring biases that plague
 Likert-scale self-report instruments. Practically, it allows the
 instrument to fit in a five-minute session, lowering the activation
 energy for use. The format does sacrifice nuance: a student who is
-genuinely ambivalent between two options must still pick one. This is
+ambivalent between two options must still pick one. This is
 treated as a feature: the discomfort of forced choice is part of the
 developmental work the instrument is designed to support.</p>
 <h3 id="the-460-occupation-corpus">4.3 The 460-Occupation Corpus</h3>
@@ -566,7 +551,7 @@ similar to your profile, but distinct from each other.</p>
 </ol>
 </section>
 <h2 id="discussion">5. Discussion</h2>
-<p><em>Positionality.</em> Synapse is designed and built by the author, who is also its sole developer and advocate; the reflections in this section are the designer&#8217;s own, not the output of independent evaluation. This position affords close knowledge of the design decisions and carries a clear stake in the instrument&#8217;s success. The design rationale should be read as a falsifiable argument open to disconfirmation, and the comparison study in Section 5.3 is specified so an independent party could run it. No IRB-reviewed protocol was in place; observations are the author’s own program notes, not research data.</p>
+<p><em>Positionality.</em> I designed and built Synapse and am its only developer, so the reflections in this section are mine rather than the result of independent evaluation. I know the design decisions closely, and I have a stake in the instrument&#8217;s success. The design rationale is meant to be disconfirmable, and the comparison study in Section 5.3 is specified so an independent party could run it. No IRB-reviewed protocol was in place; observations are the author’s own program notes, not research data.</p>
 <figure class="paper-figure">
 <img src="../../images/diagrams/fig-data-synapse.svg" alt="Exploration breadth, ranked list versus spatial map: the predicted direction, not measured data. The design expects a spatial map to widen the set of careers a student explores; the planned comparison study (Section 5.3) would test it.">
 <figcaption><span class="fig-num">Figure 4.</span> Exploration breadth, ranked list versus spatial map: the predicted direction, not measured data. The design expects a spatial map to widen the set of careers a student explores; the planned comparison study (Section 5.3) would test it.</figcaption>
@@ -607,7 +592,7 @@ semantically distant careers end up spatially adjacent, the user reads a
 false similarity into the data. The Tversky (1993) literature is clear
 that this misreading is automatic; the perceptual system does not check
 the projection’s distortion budget. The design responsibility shifts
-from “what do we put on top” to “what does adjacency in the layout
+from “what goes on top” to “what does adjacency in the layout
 actually claim.”</p>
 <p>A related implication: spatial layouts make different demands on the
 user. A ranked list demands almost nothing; the answer is at the top. A
@@ -619,8 +604,8 @@ the user came for, even when the user would have preferred the
 verdict.</p>
 <h3 id="limitations-of-the-current-implementation">5.2 Limitations of
 the Current Implementation</h3>
-<p>The current implementation has limitations that the empirical
-follow-on work would need to address. The thirteen-question instrument
+<p>Several limitations would need to be addressed in follow-on work.
+The thirteen-question instrument
 has not undergone factor analysis to confirm that the items map to the
 RIASEC dimensions they were intended to map to; convergent validity
 against the O*NET Interest Profiler has not been established. The
@@ -702,8 +687,8 @@ National Association of Colleges and Employers’ Career Readiness
 Competencies provide explicit standards against which a
 counselor-deployed tool would be evaluated. Synapse’s counselor-facing
 PDF export could carry a per-standard coverage report indicating which
-standards a completed session evidences. This is invisible to students
-and decisive for school adoption.</p>
+standards a completed session evidences. Students would not see this
+report, but school adoption is likely to turn on it.</p>
 <p>Two further lines (longitudinal reliability via versioned
 localStorage snapshots; backfill of prestige-disadvantaged careers
 underrepresented in the current narrative depth) are in scope but lower
@@ -712,15 +697,12 @@ priority for the present cycle.</p>
 Within the Broader Research Program</h3>
 <p>Synapse is one prototype within an ongoing research program at Lo/Be
 Lab on environments that support reflective work during life
-transitions. The lab’s five research questions are stated in full in the framework paper (Looper, 2026f, <em>The Architecture of Becoming</em>); this paper engages the subset below.</p>
+transitions. The framework paper (Looper, 2026f, <em>The Architecture of Becoming</em>) sets out the lab’s five research questions in full; Synapse bears on one of them.</p>
 <p>Synapse most directly addresses RQ2. The replacement of ranked-list
 output with spatial map is a design-principle claim that this paper
-develops theoretically and that future empirical work will test. The
-lab’s broader research program is organized around five animating
-research questions; companion prototypes that test the other questions
-are described in companion working reports in the same series. The
-research program is the unit of analysis; the prototypes are the
-experiments that test it. See also the author’s field note <em>Maps
+develops theoretically and that future empirical work will test. Other
+working reports in the series describe the prototypes that address the
+remaining questions. See also the author’s field note <em>Maps
 over lists</em>, which traces the spatial-map pattern across several
 prototypes.</p>
 <h2 id="conclusion">6. Conclusion</h2>
@@ -730,18 +712,16 @@ structural pathologies, choice overload and position bias, into a
 context where they actively work against the assessment’s developmental
 purpose. I described Synapse, a working prototype that responds to this
 design problem by replacing ranked-list output with a spatial map of 460
-occupations. The contribution is a design rationale and a deployable
-artifact, not a controlled effectiveness evaluation. The empirical work
-the design move requires is itself the research agenda the paper
-develops.</p>
-<p>The deeper claim is that interface form is part of the cognitive task
-itself. A ranked-list output asks the user to choose; a spatial output
-asks them to wander. Career exploration, properly understood, is
-wandering. The interface should support the task, not contradict it.</p>
-<p>Lo/Be Lab welcomes collaboration on any of the open research lines
-described in Section 5.3, particularly from counselor-education programs
-equipped to conduct the construct-validity and SCCT-integration studies.
-Inquiries can be directed to seth.looper@gmail.com.</p>
+occupations. The controlled evaluation the design move calls for is the
+research agenda set out in Section 5.3.</p>
+<p>The broader claim is that interface form is part of the cognitive
+task. A ranked list asks the user to pick from it; a spatial map asks
+the user to move through it, which is closer to what career exploration
+involves.</p>
+<p>I welcome collaboration on the open research lines in Section 5.3,
+especially from counselor-education programs equipped to run the
+construct-validity and SCCT-integration studies. Contact:
+seth.looper@gmail.com.</p>
 </div>
 <section id="references" class="references-block">
 <h2>References</h2>
@@ -771,11 +751,13 @@ https://doi.org/10.1016/j.jcps.2014.08.002</p>
 emerging paradigm for educational inquiry. <em>Educational Researcher,
 32</em>(1), 5–8. https://doi.org/10.3102/0013189X032001005</p>
 <p>Eloundou, T., Manning, S., Mishkin, P., &amp; Rock, D. (2024). GPTs
-are GPTs: Labor market impact potential of large language models.
-<em>Science, 384</em>(6702), 1306–1308.</p>
+are GPTs: Labor market impact potential of LLMs.
+<em>Science, 384</em>(6702), 1306–1308.
+https://doi.org/10.1126/science.adj0998</p>
 <p>Frey, C. B., &amp; Osborne, M. A. (2017). The future of employment:
 How susceptible are jobs to computerisation? <em>Technological
-Forecasting and Social Change, 114</em>, 254–280.</p>
+Forecasting and Social Change, 114</em>, 254–280.
+https://doi.org/10.1016/j.techfore.2016.08.019</p>
 <p>Holland, J. L. (1959). A theory of vocational choice. <em>Journal of
 Counseling Psychology, 6</em>(1), 35–45.
 https://doi.org/10.1037/h0040767</p>
@@ -824,8 +806,8 @@ less.</em> Ecco/HarperCollins.</p>
 <p>Sethi-Iyengar, S., Huberman, G., &amp; Jiang, W. (2004). How much
 choice is too much? Contributions to 401(k) retirement plans. In O. S.
 Mitchell &amp; S. P. Utkus (Eds.), <em>Pension design and structure: New
-lessons from behavioral finance</em> (pp. 83–95). Oxford University
-Press.</p>
+lessons from behavioral finance</em> (pp. 83–96). Oxford University
+Press. https://doi.org/10.1093/0199273391.003.0005</p>
 <p>Shneiderman, B. (1996). The eyes have it: A task by data type
 taxonomy for information visualizations. <em>Proceedings of the 1996
 IEEE Symposium on Visual Languages</em> (pp. 336–343). IEEE.
