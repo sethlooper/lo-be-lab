@@ -3,4 +3,4 @@ Allow: /
 Disallow: /_planning/
 Disallow: /publications/source/
 
-Sitemap: https://sethlooper.github.io/lo-be-lab/sitemap.xml
+Sitemap: https://lo-be-lab.org/sitemap.xml

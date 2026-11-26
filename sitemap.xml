@@ -3,55 +3,55 @@
 
   <!-- Top-level pages -->
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/</loc>
+    <loc>https://lo-be-lab.org/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/about/</loc>
+    <loc>https://lo-be-lab.org/about/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/research/</loc>
+    <loc>https://lo-be-lab.org/research/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/methods/</loc>
+    <loc>https://lo-be-lab.org/methods/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/</loc>
+    <loc>https://lo-be-lab.org/work/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/</loc>
+    <loc>https://lo-be-lab.org/notes/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/</loc>
+    <loc>https://lo-be-lab.org/publications/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/lexicon/</loc>
+    <loc>https://lo-be-lab.org/lexicon/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/get-started/</loc>
+    <loc>https://lo-be-lab.org/get-started/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -59,37 +59,37 @@
 
   <!-- Case studies (work) -->
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/dartworld.html</loc>
+    <loc>https://lo-be-lab.org/work/dartworld.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/synapse.html</loc>
+    <loc>https://lo-be-lab.org/work/synapse.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/career-design-lab.html</loc>
+    <loc>https://lo-be-lab.org/work/career-design-lab.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/narrative-by-design.html</loc>
+    <loc>https://lo-be-lab.org/work/narrative-by-design.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/threshold.html</loc>
+    <loc>https://lo-be-lab.org/work/threshold.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/work/inclusive-leadership-lab.html</loc>
+    <loc>https://lo-be-lab.org/work/inclusive-leadership-lab.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -97,7 +97,7 @@
 
   <!-- Working synthesis -->
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/steering-vs-becoming.html</loc>
+    <loc>https://lo-be-lab.org/publications/steering-vs-becoming.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -105,67 +105,67 @@
 
   <!-- Field notes -->
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/anchor-then-hold-space.html</loc>
+    <loc>https://lo-be-lab.org/notes/anchor-then-hold-space.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/discipline-specific-or-universal.html</loc>
+    <loc>https://lo-be-lab.org/notes/discipline-specific-or-universal.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/ai-as-mirror.html</loc>
+    <loc>https://lo-be-lab.org/notes/ai-as-mirror.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/ninety-minute-constraint.html</loc>
+    <loc>https://lo-be-lab.org/notes/ninety-minute-constraint.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/what-studios-know-about-reflection.html</loc>
+    <loc>https://lo-be-lab.org/notes/what-studios-know-about-reflection.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/compression-as-method.html</loc>
+    <loc>https://lo-be-lab.org/notes/compression-as-method.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/maps-over-lists.html</loc>
+    <loc>https://lo-be-lab.org/notes/maps-over-lists.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/research-cycles-not-curricula.html</loc>
+    <loc>https://lo-be-lab.org/notes/research-cycles-not-curricula.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/environments-not-advice.html</loc>
+    <loc>https://lo-be-lab.org/notes/environments-not-advice.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/throughput-vs-understanding.html</loc>
+    <loc>https://lo-be-lab.org/notes/throughput-vs-understanding.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/career-development-as-learning.html</loc>
+    <loc>https://lo-be-lab.org/notes/career-development-as-learning.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -173,7 +173,7 @@
 
   <!-- Notes RSS feed -->
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/notes/feed.xml</loc>
+    <loc>https://lo-be-lab.org/notes/feed.xml</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -181,55 +181,55 @@
 
   <!-- Working paper PDFs (Google indexes PDFs) -->
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260531_Looper_BuyingSolutions_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260531_Looper_BuyingSolutions_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260531_Looper_PortfolioAsNarrative_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260531_Looper_PortfolioAsNarrative_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260529_Looper_InclusiveLeadershipLab_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260529_Looper_InclusiveLeadershipLab_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260528_Looper_ArchitectureOfBecoming_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260528_Looper_ArchitectureOfBecoming_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260528_Looper_Threshold_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260528_Looper_Threshold_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260528_Looper_NarrativeByDesign_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260528_Looper_NarrativeByDesign_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260528_Looper_DartWorld_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260528_Looper_DartWorld_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260528_Looper_CareerDesignLab_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260528_Looper_CareerDesignLab_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sethlooper.github.io/lo-be-lab/publications/pdf/20260528_Looper_Synapse_LoBeLab.pdf</loc>
+    <loc>https://lo-be-lab.org/publications/pdf/20260528_Looper_Synapse_LoBeLab.pdf</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>

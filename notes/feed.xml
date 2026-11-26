@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lo/Be Lab Field Notes</title>
-    <link>https://sethlooper.github.io/lo-be-lab/notes/</link>
-    <atom:link href="https://sethlooper.github.io/lo-be-lab/notes/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://lo-be-lab.org/notes/</link>
+    <atom:link href="https://lo-be-lab.org/notes/feed.xml" rel="self" type="application/rss+xml" />
     <description>Short essays from the working memory of Lo/Be Lab: methods being tested, patterns that keep showing up, ideas still being pulled on.</description>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 May 2026 12:00:00 +0000</lastBuildDate>
     <item>
       <title>Anchor, then hold space</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/anchor-then-hold-space.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/anchor-then-hold-space.html</guid>
+      <link>https://lo-be-lab.org/notes/anchor-then-hold-space.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/anchor-then-hold-space.html</guid>
       <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
       <description>Inclusive leadership as a stance, not a competency. From the Inclusive Leadership Lab workshop (ISEO and the Career Design Lab) for international peer mentors at Dartmouth.</description>
     </item>
     <item>
       <title>Discipline-specific or universal?</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/discipline-specific-or-universal.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/discipline-specific-or-universal.html</guid>
+      <link>https://lo-be-lab.org/notes/discipline-specific-or-universal.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/discipline-specific-or-universal.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>RQ 5 isn't theoretical; it's a daily question.</description>
     </item>
     <item>
       <title>AI as mirror, not advisor</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/ai-as-mirror.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/ai-as-mirror.html</guid>
+      <link>https://lo-be-lab.org/notes/ai-as-mirror.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/ai-as-mirror.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>The design choice in NBD to use AI for reflection-surfacing rather than recommendation.</description>
     </item>
     <item>
       <title>The 90-minute constraint</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/ninety-minute-constraint.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/ninety-minute-constraint.html</guid>
+      <link>https://lo-be-lab.org/notes/ninety-minute-constraint.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/ninety-minute-constraint.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>Why NBD is 90 minutes, and why that's pedagogical, not logistical.</description>
     </item>
     <item>
       <title>What architecture studios know about reflection</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/what-studios-know-about-reflection.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/what-studios-know-about-reflection.html</guid>
+      <link>https://lo-be-lab.org/notes/what-studios-know-about-reflection.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/what-studios-know-about-reflection.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>Critique-as-reflection, ported from design education to career deliberation.</description>
     </item>
     <item>
       <title>Compression as a method</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/compression-as-method.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/compression-as-method.html</guid>
+      <link>https://lo-be-lab.org/notes/compression-as-method.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/compression-as-method.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>A method that keeps showing up across the lab's projects, often unannounced.</description>
     </item>
     <item>
       <title>Maps over lists</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/maps-over-lists.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/maps-over-lists.html</guid>
+      <link>https://lo-be-lab.org/notes/maps-over-lists.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/maps-over-lists.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>A pattern that has shown up independently in two of the lab's projects.</description>
     </item>
     <item>
       <title>Design cycles, not curricula</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/research-cycles-not-curricula.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/research-cycles-not-curricula.html</guid>
+      <link>https://lo-be-lab.org/notes/research-cycles-not-curricula.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/research-cycles-not-curricula.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>What changes when you treat teaching as design-research iteration.</description>
     </item>
     <item>
       <title>Environments, not advice</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/environments-not-advice.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/environments-not-advice.html</guid>
+      <link>https://lo-be-lab.org/notes/environments-not-advice.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/environments-not-advice.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>The lab's design ethic, and what it means in practice.</description>
     </item>
     <item>
       <title>Throughput vs. understanding</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/throughput-vs-understanding.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/throughput-vs-understanding.html</guid>
+      <link>https://lo-be-lab.org/notes/throughput-vs-understanding.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/throughput-vs-understanding.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>The institutional design problem the lab is responding to.</description>
     </item>
     <item>
       <title>Career development as learning</title>
-      <link>https://sethlooper.github.io/lo-be-lab/notes/career-development-as-learning.html</link>
-      <guid isPermaLink="true">https://sethlooper.github.io/lo-be-lab/notes/career-development-as-learning.html</guid>
+      <link>https://lo-be-lab.org/notes/career-development-as-learning.html</link>
+      <guid isPermaLink="true">https://lo-be-lab.org/notes/career-development-as-learning.html</guid>
       <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
       <description>The lab's one substantive commitment, and what changes downstream when you accept it.</description>
     </item>
